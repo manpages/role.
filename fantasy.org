@@ -1,0 +1,219 @@
+* Generic Epic Fantasy Playtest
+
+** Experience
+
+To learn new optional attribute to rank 1, one must spend a number of experience points
+equal to number of optional attributes already known. To get n-th rank in an 
+attribute, one needs to have this optional attribute at rank n-1 and spend n expirience
+points. Whenever a character spends experience points to get a rank in an optional attribute
+this way, she gets that much options in this optional attribute. Whenever a character increases
+mental basic attribute to n-th rank, she gets up to n options but not more than one in
+each options attribute. 
+
+** Tactical combat
+
+Combat is performed on a standard squared tactical battlefield.
+Rounds are resolved simultaneously, length of rounds vary.
+Round finishes when game state significantly changes and DM announces the state of the game.
+
+*** Example:
+
+Tordek 3/2, Krusk 4/1 and Redgar 2/3 are facing four 2/2 goblins that ambush them.
+Goblin chieftain spotted approaching adventurers and party of goblins, hidden in the bushes
+prepare to throw javelins at adventurers then take out spears and daggers and attack,
+while chieftain sings encouraging chant and casts spells.
+
+Adventurers have little to none chance of spotting well-hidden creatures, but Redgar spots
+some broken branches on a bush and signals that to the party.
+
+DM *looking at three successes on Redgar's mental check*: Redgar, you have spotted some
+broken branches of the bushes to the left of the road, what do you do?
+Redgar: I signal that to the party and draw my weapon.
+
+Because Redgar told the party of the danger, goblin-with-daggers who happens to get one 
+automatic success on his attack clashes against surprised opponents, doesn't get it.
+
+DM: As you try to figure out if you're getting ambushed and draw your weapons, you
+get to know that indeed it's the case — four javelins are thrown at you, targeting
+cleric. Redgar, make a physical check.
+
+Redgar rolls, getting 0 successes;
+Goblins make four rolls — 0, 0, 2 and 1.
+
+As Redgar is wearing a full plate with gousset, he gets one additional success and one 
+additional hit point. Thus, goblin who rolled 1 has to reroll. After reroll he gets 2.
+
+DM: Four javelins aiming to kill Redgar on spot make significant damage, penetrating
+his armour and reducing his hit points to one. Ambushers getting ready to get out of
+their cover to face you. Your actions?
+
+Redgar: Can I see any cover?
+
+DM: Yes, you can take cover in the ditch.
+
+Redgar: I want to jump there and cast healing spell, using one mana (morale) point.
+Krusk: Stupid tiny ambushers trying to kill my friend enrage me, I enter rage and run onwards
+desiring to kill them all! When one of the bandits gets in my way, I hit him with my axe!
+Tordek: I keep defensive position, getting ready to intercept ambushers if they are to try
+to finish off Krusk.
+
+DM *moving goblin tokens out of the bushes moving Krusk token towards the closest one*:
+You see four goblins getting out of the bushes, they seem to notice Krusk and intend to attack
+him. Three of them are having spears and one of them is carrying two daggers.
+Redgar successfully healed his wounds and is ready to jump back into the battle.
+Trodek, do you want to approach them or will you hold position for some more time?
+
+Tordek: I'll make sure that Redgar is getting better and will use defensive rush to approach closest
+goblin.
+Redgar: I ask Tordek to help me up, pointing at my plate, afterwards I want to move towards the battle.
+
+DM: Tordek, as you're about to charge, you hear Redgar's request.
+
+Tordek: I help him up and then we attack.
+
+DM: In the meantime, Krusk faced one of the spearmen. His axe is long enough to compete with defensive
+properties of spear, however Krusk has to improvise to fight around the spear, hence he loses equipment
+benefits from the axe. Roll your physical check.
+
+Krusk gets two successes, goblin gets one success on his defense roll and receives one point of damage.
+
+DM: You hit goblin who failed to keep the distance. It, however tries to hit you with his spear as he
+takes a small step back trying to keep you from hitting him with your axe.
+
+Goblin gets two successes, Krusk gets three successes.
+
+DM: Goblin misses. By the time this exchange of blows is over, you see that speared goblins take
+defensive positions around the place where Krusk battles his fellow, dagger-weilding goblin rougishly
+approaches Krusk intending to flank him. Because you guys were 30 ft away, you can clash for position
+with spear-wielding goblins. However it should be noted that you can't attack spearmen except for
+when you are both flanking the target.
+
+Party: we choose to clash for the position.
+
+etc, etc.
+
+
+*** Timing
+
+As round length vary, we want to be sure that nobody loses actions. To determine duration of
+actions, we use standard D&D intuition for movement categories which is duration over seconds.
+An average medium-sized character moves in combat at a pace of 10 ft a second, an average
+time to exchange blows in melee is three seconds, more aggressive styles of combat have shorter
+period of exchange, more defensive styles require movement and have longer periods of exchange.
+When defensive fighter challenges aggressive fighter, oftentimes she exploits parade-riposte
+heavily (see "fighting modes" below), resulting in her having less attacks than her opponent.
+DM should use these intuitions to keep track of tactical time.
+Notice that it's *way* easier to run a combat when significant changes don't happen out of sync,
+that means that it's better to get timings aligned when positions on the battlefield are
+unchallenged. 
+
+** Melee combat
+
+*** Modes of combat
+
+**** Description
+
+There are three modes of combat — aggressive, defensive and parry. Aggressive mode
+represents having initiative in melee, defensive mode represents decision not to challenge
+initiative and gives character +1 on defending a clash and -1 on forcing a clash. To
+challenge initiative of opponent, defensive character must make an attack losing defending
+bonus, but keeping forcing penalty. Parry mode is a special mode that is relevant to
+fencing styles of combat which follows the following rules — parrying character gives up
+attack initiatives completely for +1 on defending clashes and attempts to misdirect or
+parry incoming blow. If she succeeds, she attacks the opponent (riposte), her opponent
+gets a penalty on this clash equal to the amount of successes by which she outsucceeded
+her opponent in the previous clash. If this clash deals damage, she can choose to take
+initiative, switching mode to aggressive.
+
+**** Forcing movement
+
+Under some conditions, character can force movement equal to up to one third of her 
+tactical speed. If opponent can't follow this movement, opponent has to stand his ground
+trying to retake initiative in the combat or fall prone.
+
+Aggressive mode forces movement against defensive opponent by skipping an attack and against
+parry automatically.
+
+Defensive mode forces movement against parry mode by skipping an attack.
+
+Parry mode follows the movement of the opponent.
+
+**** Non-duel melee
+
+In non-duel melee, single character is defensive.
+If two or more opponents are flanking (following D&D definition of flanking) character,
+she loses defensive bonus to clashes.
+
+**** Non-level melee
+
+A character is said to have high ground advantage if she is at least half-height higher
+than opponent. She can't be effectively attacked till high ground advantage is eliminated,
+however her movement can be forced if she doesn't have initiative in melee (isn't in 
+aggressive mode).
+
+*** Types and keywords of melee weapons
+
+ + Short: fists, daggers; basically everything that has length up to a short-sword.
+ + Medium: two-handed axes, longsword; everything that has lever size up to a spear.
+ + Long N: great sword, spear, lance; long melee weapons. Weapons like giant dagger are categorized with Long 3.
+
+ + Control: 1-shorter weapons lose clash bonuses, 2-or-more-shorter weapons can't initiate an attack. Spear and rapier are examples of control weapons.
+ + Fency: some weapons don't use weight to harm opponent, instead they use sharpness of the blade or singieness of the ending. You can use parry mode with those. Most fency weapons benefit defense.
+ + Swingy: some weapons rely on sheer weight to crush opponents. You can't respond to an opening with this weapon. Most swingy weapons also penalize defense.
+
+*** Grapple, overrun
+
+A character may attempt to grapple his opponent. If he does, physical clash happens. If
+defender wins, she may take initiative in the grapple. While in grapple, both characters
+can't move, projectiles have 50% of hitting either of them (ranged attacker must clash
+normally against randomly picked target), any other character may attack anyone in the
+grappling duo taking -1 to attack pool.
+
+Larger creatures may try to overrun smaller creatures. If smaller creature wants to challenge
+position, she has to win physical clash. Overrun provides an opening.
+
+** Ranged combat
+
+Characters can shoot things and throw things. Things have range increment that decrease
+attack pools by 1.
+
+Shooting into melee ends badly most of the times. If you miss the target, your ally clashes
+vs your result. If she loses the clash, you damage your ally.
+
+** Cover
+
+There are levels of cover — 9/10 cover, adding 3 to defensive pools against attacks;
+3/4 cover, adding 2; half-cover, adding 1. Full cover means that character is out of 
+line of sight and can't be targeted.
+
+** Interrupts
+
+You can ready an action, you can also rapidly attack or make an action from cover.
+
+To react to a rapid attack if the action was prepared, you must win clash with either
+physical or mental check vs physical check of rapid attacker.
+
+To change target to a person who performs rapid attack or action one must win mental
+check against their physical check.
+
+When a character moves through no more than 5ft open area from a cover, that move is 
+considered to be rapid.
+
+** Magic
+
+Magic is performed in two styles — spontaneous and prepared.
+
+Spontaneous magic drains specific resource (dependent on type of the optional ability).
+Specific resource restores after full rest.
+
+Prepared magic requires rituals of preparation for particular spell which normally takes
+fifteen minutes to complete. Which means that wizards can reload their lists during
+short rests.
+
+Spells are divided in three major categories — tactical spells, long-term spells and
+rituals. Tactical spells can be used under pressure and their effects don't tend to
+last for a long time; long-term spells' casting speed varies but effect lasts for 
+minutes, sometimes hours; rituals normally take approximately fifteen minutes and 
+suit strategic purposes.
+
+Ranges and targets of magic in "Role. Fantasy" are the same as in "Open d20."

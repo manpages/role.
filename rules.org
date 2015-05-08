@@ -1,0 +1,143 @@
+* Basic rules
+** Attributes, resources and harmony
+
+There are two attributes in the system — physical development [PHY] and
+mental development [MNT].  Semantics are obvious.
+
+Depending on power level of setting maximum value of attributes can be
+capped. Author suggests to use five as this cap, mapping to Novice,
+Competent, Proficient, Expert and Master.
+
+Resources are morale [MRL] and health [HP].  Starting and maximum morale
+is equal to MNT; Starting and maximum health is equal to PHY;
+
+For each class of interaction which is constructed depending on setting or
+maybe even module (!) an optional attribute is defined. Examples are
+martial combat, earth magic, starship operation.  Note that depending on
+the setting, detalization of interaction classes may vary. For a space
+opera we don't care about styles of martial combat as it doesn't
+contribute to narration, clutters build options and doesn't yield a
+balanced interaction class. For a non-magical medieval eastern environment
+types of martial arts and fighting styles should naturally be more
+detailed for diversity of builds and gameplay.
+
+Optional attributes may define optional resources. If an effect checks for
+an optional resource and the character doesn't have this optional
+resource, treat this situation as if the character in question had
+optional resource value of one.
+ 
+Harmony is a constant which is equal to the value of the minimum attribute
+(not only obligatory, but also optional ones).
+
+That's it. Literally. This RPG foundation was made by Emil Petrachenok,
+influenced by a discussion with Ilya Deift, Alex Velenko and George
+Raihman; Harmony constant is inspired by studies in quantifying
+characters' morale by Maxim Yanyushkin.
+
+** Checks
+
+All checks are opposed rolls of Nd10, where N is one plus the score in relevant
+attribute.  Success is 6 or more. Failure is 5 or less. Count successes on
+your roll, compare those on opponent's roll if you have more, you win the
+clash; less — lose; equal — draw.  If draw is not defined for a particular
+check, repeat the clash till somebody wins.
+
+If a character makes an optional attribute check against a character with
+no such optional attribute, defender gets a dice pool of one. One without
+optional attribute, however, can't initiate a clash.
+
+** Motivation, Loyalty, Passion, Credo
+
+The main point of "Role." system is role playing; to aid in role-playing
+and help GM as well as players to discover the characters whose stories
+are getting told during the game we use MLPC system. Adding entries to MLP
+in general is beneficial, game will most likely reward player for this;
+Concretization of MLP is expected but rarely yields significant reward;
+Changing of an entry most often yields punishment in mental state and
+enthusiasm of the character; Removing an entry requires a huge effort and
+a punishment most likely will follow a removal of an entry from MLP.
+
+MLPC was proposed by George Raihman.
+
+*** Motivation
+Far-fetched goals that drive the character in her seekings;
+
+*** Loyalty
+Emotional affection to other characters; factions; places; things.
+
+*** Passion
+The reason to live; what makes the character happy.
+
+*** Credo
+
+A short (or not) codex of character. It's optional. Most characters lie to
+themselves and don't know who they are. Building up a credo can actually
+be a valid motivation.
+
+* Balancer
+
+Intuitively, a system is balanced if there is no outstanding options.  If
+there is a small amount of outstanding options, system will degrade into
+all the players picking those over inferior options.
+
+Rich gameplay should be ensured by having modules where different
+interaction classes being relevant together with options within one
+interaction class to be feasible.
+
+Formal balance criteria — for each party P of characters there should
+exist a party Q having the same ability total and options selected, such
+that
+1. for every character in P no character in Q shares more than half of
+the options within a certain interaction class;
+2. probability of Q beating P is no less than 50%.
+
+Please notice that this balance criteria is applied to all the relevant
+aspects of the setting.  If your setting is pre-Qui-Gon-Jin Tatooine, you
+balance against trading, pod-racing and combat against sand people.
+
+This formal criteria can be checked in a proramming language capable of
+lazy evaluation strategy by simply building infinite tree of all possible
+decisions, then folding it over weighted outcomes of all or some possible
+decisions on a given depth, after which picking a random path in the tree
+and repeating adding weighted effects of all or some of the decisions.
+
+Please notice, that this program schema is merely a check (which we can
+run against certain parties) to get progressively sure that the parties
+are indeed balanced. We can also run this program against individual
+characters or generators of build to get empirical knowledge about the
+balance in the system.
+
+The only way to get a proof that the system is balanced within our setting
+model (remember, we have to know whether or not we're balancing pod
+racing!) is to analytically prove that options are feasible.
+
+Analytical approach is to pick an option within an interaction class and
+call it "basic interaction".  Then, based on how it diminishes
+resources. The way it diminishes resources is described by tree of
+probabilities that is regular and analytically deductible with just
+xBeatsY function, which is ``xBeatsY x y = 1 - 1/2 * (kInN 0 (abs $ x - y))``
+
+Proof of correctness of this formula:
+If x and y are of the same size, the probability is 1/2 (symmetry);
+Else, say x > y, then x = y + p; p > 0.
+Which means that if pool x gets 0 tails in p (kInN 0 p), it still has 1/2
+chance of winning.
+It yields formula
+``xBeatsY x y = 1 - (1/2 * (kInN 0 p))`` which, when we reverse
+substitution, yields aforementioned forumla. 
+
+A value, or power of an option is derived by comparing qualities of tree
+for this option to the tree of the basic interaction.
+
+A way to analytically work with options within interaction classes was
+proposed by Ilya Deift.
+
+I have a feeling that this analysis can be improved by only counting
+effects and making trees as deep as the longest effect of an option is.
+We can rest assured that analysis for a minimal system like this one
+is possible.
+
+* Let's play!
+
+If you're interested in such a system, contact me.
+Contact details — http://memorici.de/me.html

@@ -1,0 +1,92 @@
+* Keth "Marauder" Willgrim
+
+** Basic attributes
+Phy 5 = 3 + 2 (4+5 XP)
+=> 
+Health 5
+
+Mnt 4 = 2 + 1 + 1 (3+4 XP)
+=> 
+Morale 3
+
+** Optional attributes
+
+*** Openmindedness 3 (1: 1+2+3)
+=>
+Creativity 3
+
+**** Jack of all trades
+Prerequisite: Openmindedness 3 (1 ···, burned 1 XP)
+Experience point costs of getting new optional attributes is decreased by 1 to a minimum of 1.
+
+**** Reverse engineering
+Prerequisite: Openmindedness 1 (1 ·)
+Character can make openmindedness + mental check vs structural complexity
+of a mechanism to figure out how does it work. Use this as a ritual with
+no retry.
+Character can also make mental check vs camouflage of a mechanism to
+detect it.
+
+**** Performance
+Prerequisite: Openmindedness 2 (1 ··)
+Character is artistic. For each rank in openmindedness, pick an artistic way
+of expression your character is good at.
+
+**** Inspiration
+Prerequisite: Openmindedness 2 (1 ··)
+You may spend a creativity point to add your harmony score to the amount of successes on any roll.
+
+**** Luck
+Prerequisite: Openmindedness 3 (1 ···)
+You may spend a creativity point to reroll an already rolled check. 
+
+**** Destructive criticism
+Prerequisite: Openmindedness 3 (1 ···)
+In a social situation, you can do a dirty trick of overexaggerating a certain flaw in a discussion
+or situation in general. Like saying that "overexaggerating" is not a real word.
+Do an openmindedness clash, reducing target's creativity. If target's creativity is reduced to 0
+or less, target loses one morale point and suffers -1 penalty on all mental checks. Imaginary damage
+dealt this way (imaginary damage — loss of optional resource character didn't have in the first place)
+wears off after short rest; Real damage works normally, one point of resource will be restored after
+full rest.
+
+**** Stroke of genius
+Prerequisite: Openmindedness 3, Mental 4 (M ····)
+Character can spend a creativity point to get maximum successes on a mental check or openmindedness check.
+Note that you can't reroll a check that was already performed. Note that if an effect makes you do
+mental + openmindedness check, you get to choose which one will be overloaded.
+
+
+*** Archery 3 (1+2+3)
+
+**** Marksman's awareness: Shortbow (·)
+Even though shooting a bow requires a lot of concentration,
+you don't suffer defense penalties while shooting.
+
+**** Marksman's precision: Shortbow (··)
+You get additional roll when you're shooting a shortbow.
+
+**** Hit the Bullseye: Bows (··)
+While shooting a bow you can choose to spend an additional full round
+pinning the target. If you do, you get a success instead of one roll
+on your ranged clash.
+
+**** Lucky strike (···)
+If you use Luck to reroll an attack, it deals one extra damage if
+successful.
+
+**** Disarming strike (···)
+You may choose to target a weapon with Hit the Bullseye. If you do,
+clash normally and on hit, you disarm your opponent.
+
+**** Sneaky marksman: Shortbow (···)
+Rapid attacks with shortbows are precise. If you have precision
+damage, it is applied to those.
+
+**** Sundering strike (M ····)
+You may choose to target a weapon with Hit the Bullseye. If you do,
+clash normally and on hit, deal damage to the weapon.
+
+*** Black operative 3 (2+2+3)
+
+**** Sneak attack
