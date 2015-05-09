@@ -1,4 +1,4 @@
-* Keth "Marauder" Willgrim
+* Keth "Marauder" Willgrim XP: 0/32
 
 ** Basic attributes
 Phy 5 = 3 + 2 (4+5 XP)
@@ -87,6 +87,16 @@ damage, it is applied to those.
 You may choose to target a weapon with Hit the Bullseye. If you do,
 clash normally and on hit, deal damage to the weapon.
 
-*** Black operative 3 (2+2+3)
+*** Operative 3 (2+2+3)
+=>
+Grace 3
 
-**** Sneak attack
+**** Sneak attack (·)
+When you attack character who is unaware of danger or unable to properly defend oneself,
+you gain an additional roll on your attacks.
+
+**** Stealth (··)
+When you try to be silent, you utilize your trained perception to be fully aware of the
+environment. Choose one —
+ - you get a success on your next move silently clash;
+ - add your operative score to your move silently pool.
