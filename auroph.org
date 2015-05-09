@@ -60,6 +60,7 @@ In aggressive mode, spiritualist capable of casting magic can choose to cast an 
 **** Diamond body (M ·····)
 Once a day, you may perform a ritual to apply a spell to yourself. Its effect end after you lose a combat clash.
 
+
 *** Elementalism 2 (1: 2+2)
 =>
 Mana 2

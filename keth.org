@@ -100,3 +100,20 @@ When you try to be silent, you utilize your trained perception to be fully aware
 environment. Choose one —
  - you get a success on your next move silently clash;
  - add your operative score to your move silently pool.
+** Equipment
+
+Aristocrate's outfit
+
+Adventurer's outfit
+
+Echanted Mithral Chain mail +2 — moderate enchanted armor, gives +2 rolls to defensive combat clashes.
+
+Darkarrow Shortbow r1/+1 — powerful ehcnahted shortbow. Replaces one roll with a success (r1);
+Adds one roll to the pool (+1); Arrows shot with it in low light or darkness are invisible.
+Because it's shortbow, maximum phy die pool is three. Because it's shortbow, you can perform
+rapid actions with it and attack while moving by getting -1 penalty to attacking combat clash pool. 
+
+Blade of Softstep r1 — powerful enchanted dagger. Adds one roll to stealth checks when held as a weapon. 
+
+Wealth: 1
+
