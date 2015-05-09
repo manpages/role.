@@ -56,7 +56,8 @@ Treat your fists as a +1 magical weapon. (+1 roll in attack clashes in combat)
 **** Tranquility (M ···)
 Instead of +1 harmony bonus, apply bonus equals to your harmony value.
 **** Magic fist (M ····)
-In aggressive mode, spiritualist capable of casting magic can choose to cast an offensive spell as a part of unarmed attack.
+In aggressive mode, spiritualist capable of casting magic can choose to cast an offensive spell as a part of unarmed attack. 
+If he does, recepient of this unarmed attack is also the target of the spell cast.
 **** Diamond body (M ·····)
 Once a day, you may perform a ritual to apply a spell to yourself. Its effect end after you lose a combat clash.
 
