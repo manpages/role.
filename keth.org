@@ -100,6 +100,33 @@ When you try to be silent, you utilize your trained perception to be fully aware
 environment. Choose one —
  - you get a success on your next move silently clash;
  - add your operative score to your move silently pool.
+
+**** Skirmish (··)
+When you make an attack after moving for at least one third of your speed, you get +1 roll
+on your attacks.
+
+**** Use magic device (··)
+You understand the pargmatic principles of magic. For an identified magic device, you can
+clash Operative vs Structural complexity. If you win, you can use magic device. If you lose,
+you can't retry and clash again. If you lose again, device is ruined and requires maintenance
+worth 1/10th of its price. 
+
+**** Combat expertise (···)
+Spend one grace point: next time you'd provide an opening this combat, you don't instead.
+
+**** Apply poison (···)
+Operative is capable of applying poison without a risk of getting poisoned himself.
+
+**** Assassin's expertise (···)
+Operative knows damage reduction types of uncamouflaged targets based on creature type.
+
+**** Combat reflexes (M ····)
+Whenever a threatened opponent provides an opening, you may make an attack against him.
+Normally, for each round you can do it only once; here you can even attack both of your flanking opponents.
+
+*** Melee expertise 1
+**** Weapon focus: rapier
+In parry mode you get +1 defensive roll on combat clashes.
 ** Equipment
 
 Aristocrate's outfit

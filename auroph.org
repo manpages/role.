@@ -99,3 +99,12 @@ Choose Virtue or Stoneskin —
    Duration: 1 minute / level
    Range: Close (25 ft. + 5. ft / level)
    Clash: —
+
+*** Equipment
+
+Ring of burrow: on any material plane, you may obtain burrow speed
+equal to character's speed once a day for amount of minutes equal to
+your mana (minium 1).  On Elemental Plane of Earth the effect is
+permanent.
+
+Wealth: 3
