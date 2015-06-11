@@ -45,9 +45,9 @@ player-constructed abilities. All the basic interactions within an aspect are co
    
  * wealth (active | wealth category, possessions)
 
-   + As you get this option, restore 1 wealth category. If you can't, add wealth to your active equal to half of the value of your maximum wealth category.
+   + As you get this option, restore 1 wealth point. If you can't, add wealth units to your active equal to half of the unit value of your maximum wealth category.
 
-   + Spend 50 wu to make a DC 1 *wealth + wealth category* check to reveal a minor fact about a certain obscure lore, or a major fact about a widely-known lore or hire an outlook for a day. *(Wu stands for “wealth units” — the measure of wealth that is held in a character's inventory)*
+   + Spend 50 wu to make a DC 1 *wealth + wealth points* check to reveal a minor fact about a certain obscure lore, or a major fact about a widely-known lore or hire an outlook for a day. *(Wu stands for “wealth units” — the measure of wealth that is held in a character's inventory)*
    
  * socialization (identity | gather information, standings)
 
