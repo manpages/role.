@@ -46,3 +46,50 @@ player-constructed abilities.
  * socialization (identity | threat assessment, standings)
  
    Do a DC 1 mental check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
+
+### Character sheet
+
+```
+# Character
+Race Subrace Size
+Name
+Diety
+Primary aspect:
+Secondary aspects:
+
+# Combat
+Physical development ·
+Mental development ·
+HP 1/1
+MP 1/1
+
+# Crawling
+Elusiveness ·
+Consequences ·
+
+# Travel
+Pathfinding ·
+Strategic speed ·
+
+# Wealth
+Wealth category ·
+Posessions 0
+
+# Socialization
+Identities: true identity
+Gather infromation ·
+Standings 0
+
+# Options
+## Combat
+## Crawling
+## Travel
+## Wealth
+## Socialization
+
+# MLPc
+Motive:
+Loyalties:
+Passions:
+Credo:
+```
