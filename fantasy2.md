@@ -35,25 +35,25 @@ player-constructed abilities. All the basic interactions within an aspect are co
  
    + Restore 1 health point to allies over a short rest *(To short rest, spend one hour not engaged in a combat)*
 
-   + Make a DC X crawling check to detect or set up traps or secret doors; or apply poison; or use grappling hook or a rope swiftly; where X is the item level of corresponding trap, secret door or posion; or circumstance difficulty of using a hook or a rope.
+   + Make a DC X *crawling + elusiveness* check to detect or set up traps or secret doors; or apply poison; or use grappling hook or a rope swiftly; where X is the item level of corresponding trap, secret door or posion; or circumstance difficulty of using a hook or a rope.
 
  * travel (distance | pathfinding, speed)
  
    + Strategic speed of the party is increased by 1 *(see “Strategic movement”)*
    
-   + Make a DC 1 mental check to predict well-known dangerous places along your path.
+   + Make a DC 1 *travel + pathfinding* check to predict well-known dangerous places along your path.
    
  * wealth (active | wealth category, possessions)
 
    + As you get this option, restore 1 wealth category. If you can't, add wealth to your active equal to half of the value of your maximum wealth category.
 
-   + Spend 50 wu to make a DC 1 wealth check to reveal a minor fact about a certain obscure lore, or a major fact about a widely-known lore or hire an outlook for a day. *(Wu stands for “wealth units” — the measure of wealth that is held in a character's inventory)*
+   + Spend 50 wu to make a DC 1 *wealth + wealth category* check to reveal a minor fact about a certain obscure lore, or a major fact about a widely-known lore or hire an outlook for a day. *(Wu stands for “wealth units” — the measure of wealth that is held in a character's inventory)*
    
- * socialization (identity | threat assessment, standings)
+ * socialization (identity | gather information, standings)
 
    + As you get this option, increase a standing with any faction by 1.
 
-   + Spend a short rest to make a DC 1 socialization check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
+   + Spend a short rest to make a DC 1 *socialization + gather information* check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
 
 ### Character sheet
 
