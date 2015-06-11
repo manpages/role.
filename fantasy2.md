@@ -28,12 +28,21 @@ Every aspect of the game has a basic interaction that is used as a baseline for 
 player-constructed abilities.
 
  * combat (health | physical development, mental development)
+ 
    Attack for 1 *(To attack for X, clash phy vs phy, honoring equipment and tactical bonuses and penalties. If you win, deal X damage to target)*
+   
  * crawling (resource restoration | elusiveness, consequences of harm)
+ 
    Restore 1 health point to allies over a short rest *(To short rest, spend one hour not engaged in a combat)*
+   
  * travel (distance | pathfinding, speed)
+ 
    Strategic speed of the party is increased by 1 *(see “Strategic movement”)*
+   
  * wealth (active | wealth category, possessions)
+
    As you get this option, restore 1 wealth category. If you can't, add wealth to your active equal to half of the value of your maximum wealth category.
+   
  * socialization (identity | threat assessment, standings)
+ 
    Do a DC 1 mental check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
