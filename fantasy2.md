@@ -49,7 +49,9 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
    + **Intuit general direction**: Make a DC 1 *travel + pathfinding* check to intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
 
-   + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location
+   + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location; At all times *(“at all times” means that even a mage who has this option has the following effect)* you know how to use and take care of traveling tools and mounts
+
+   + **Traveler's craft**: Make a DC 1 *travel* check to grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary structural point to a vehicle. No retry *(the same character can't try this several times before taking at least a short rest)*.; At all times you can spend a short rest to grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary structural point to a vehicle.
    
  * wealth (active | wealth category, possessions)
 
