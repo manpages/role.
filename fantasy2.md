@@ -39,17 +39,17 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
  * travel (distance | pathfinding, speed)
  
-   + **Quick march** Pay 1 travel point: for the next travel, each character in the party gets +1 mile/hour *traveling* strategic speed bonus *(see “Strategic movement”)*
+   + **Quick march**: Pay 1 travel point: for the next travel, each character in the party gets +1 mile/hour *traveling* strategic speed bonus *(see “Strategic movement”)*
 
-   + **Extend stamina** Pay 1 travel point: get an extra hour of full-speed traveling
+   + **Extend stamina**: Pay 1 travel point: get an extra hour of full-speed traveling
 
-   + **Second wind** Pay 1 travel point: for an hour, ignore exhaustion or fatigue caused by traveling (exhaustion and fatigue should be paid separately)
+   + **Second wind**: Pay 1 travel point: for an hour, ignore exhaustion or fatigue caused by traveling (exhaustion and fatigue should be paid separately)
    
-   + **Travel safe** Make a DC 1 *travel + pathfinding* check to predict well-known dangerous places along your path
+   + **Travel safe**: Make a DC 1 *travel + pathfinding* check to predict well-known dangerous places along your path
 
-   + **Intuit general direction** Make a DC 1 *travel + pathfinding* check to intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
+   + **Intuit general direction**: Make a DC 1 *travel + pathfinding* check to intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
 
-   + **Traveler's knowledge** Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location
+   + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location
    
  * wealth (active | wealth category, possessions)
 
