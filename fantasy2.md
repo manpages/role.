@@ -67,19 +67,6 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
 ### Crawling
 
-#### Tactical speed
-
-| Type (size) / Template      | Tactical speed  | Speed bonus (for each point in Phy beyond third) |
-|-----------------------------|----------------:|--------------------------------------------------|
-| Humanoid (large)            | 40ft            | +5                                               |
-| Humanoid (medium)           | 30ft            | +5                                               |
-| Humanoid (small)            | 20ft            | +5                                               |
-| Four-legged animal (large)  | 70ft            | +10                                              |
-| Four-legged animal (medium) | 50ft            | +10                                              |
-| Four-legged animal (small)  | 40ft            | +10                                              |
-| Unliving                    | -10ft           | +5                                               |
-
-
 ### Travel
 
 Each character has the amount of travel points equal to her travel rank.
@@ -125,6 +112,20 @@ Crawling characters can do the same with crawling points.
 | Four-legged animal (medium) | 15 miles/hour   | +2                                               |
 | Four-legged animal (small)  | 5 miles/hour    | +2                                               |
 | Unliving                    | -1 miles/hour   | +1                                               |
+
+#### Tactical speed
+
+| Type (size) / Template      | Tactical speed  | Speed bonus (for each point in Phy beyond third) |
+|-----------------------------|----------------:|--------------------------------------------------|
+| Humanoid (large)            | 40ft            | +5                                               |
+| Humanoid (medium)           | 30ft            | +5                                               |
+| Humanoid (small)            | 20ft            | +5                                               |
+| Four-legged animal (large)  | 70ft            | +10                                              |
+| Four-legged animal (medium) | 50ft            | +10                                              |
+| Four-legged animal (small)  | 40ft            | +10                                              |
+| Unliving                    | -10ft           | +5                                               |
+
+
 
 Maximum strategic speed for medium humanoids is 4 miles/hour + 1 mile/hour for each point in Phy beyond third.
 Maximum strategic speed for small humanoids is 3 miles/hour + 1 mile/hour for each point in Phy beyond third.
