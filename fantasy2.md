@@ -76,11 +76,11 @@ have to be able to cary half the load to start rolling).
 
 #### Loads (pounds) per phy level and penalties 
 
-| Phy    | ·  | ··  | ··· | ···· | ····· | Strategic speed    | Tactical speed        |
-|--------|---:|----:|----:|-----:|------:|:------------------:|:---------------------:|
-| Light  | 20 | 33  | 76  | 104  | 132   | —                  | —                     |
-| Medium | 40 | 66  | 111 | 146  | 182   | half the speed     | two thirds the speed  |
-| Heavy  | 80 | 132 | 181 | 231  | 282   | quarter the speed  | half the speed        |
+| Phy    | ·  | ·· | ··· | ···· | ····· | ······ | Strategic speed    | Tactical speed        |
+|--------|---:|---:|----:|-----:|------:|-------:|:------------------:|:---------------------:|
+| Light  | 15 | 20 | 33  | 76   | 104   | 132    | —                  | —                     |
+| Medium | 30 | 40 | 66  | 111  | 146   | 182    | half the speed     | two thirds the speed  |
+| Heavy  | 60 | 80 | 132 | 181  | 231   | 282    | quarter the speed  | half the speed        |
 
 #### Fatigue and exhaustion
 
