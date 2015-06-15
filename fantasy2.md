@@ -1,5 +1,15 @@
 # Generic Epic Fantasy Constructor Playtest
 
+## Game mechanics
+
+### Dice pools and bonuses
+
+### Clashes
+
+### Difficulty classes
+
+### Abilities and effects
+
 ## Wheel of aspects
 
 ![Wheel of aspects](./wheel.png)
@@ -17,8 +27,11 @@ Right now, to impose interesting restrictions and be tropey, it's allowed to pic
 aspect as primary and its neighbours as secondaries.
 
 Primary aspects are more developed than secondary aspects: Nth level of primary aspect
-grants access to options of Nth level in this aspect, whilst Nth level of secondary
-aspect grants access to options of N-1st level of options i this aspect.
+grants access to options of Nth level of this aspect, whilst Nth level of secondary
+aspect grants access to options of N-1st level of options of this aspect.
+
+As you get access to a level N of options of an aspect, you may pick one option of each
+level of this aspect, up to N (including).
 
 You can also choose to have all five aspects as your secondary aspects, see “Mage”.
 
