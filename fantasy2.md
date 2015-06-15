@@ -117,7 +117,7 @@ Crawling characters can do the same with crawling points.
 #### Strategic speed
 
 | Type (size) / Template      | Strategic speed | Speed bonus (for each point in Phy beyond third) |
-|-----------------------------|----------------:|:-------------------------------------------------|
+|-----------------------------|-----------------|:-------------------------------------------------|
 | Humanoid (large)            | 5 miles/hour    | +1                                               |
 | Humanoid (medium)           | 4 miles/hour    | +1                                               |
 | Humanoid (small)            | 3 miles/hour    | +1                                               |
