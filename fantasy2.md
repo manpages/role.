@@ -39,9 +39,17 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
  * travel (distance | pathfinding, speed)
  
-   + Strategic speed of the party is increased by 1 *(see “Strategic movement”)*
+   + **Quick march** Pay 1 travel point: for the next travel, each character in the party gets +1 mile/hour *traveling* strategic speed bonus *(see “Strategic movement”)*
+
+   + **Extend stamina** Pay 1 travel point: get an extra hour of full-speed traveling
+
+   + **Second wind** Pay 1 travel point: for an hour, ignore exhaustion or fatigue caused by traveling (exhaustion and fatigue should be paid separately)
    
-   + Make a DC 1 *travel + pathfinding* check to predict well-known dangerous places along your path.
+   + **Travel safe** Make a DC 1 *travel + pathfinding* check to predict well-known dangerous places along your path
+
+   + **Intuit general direction** Make a DC 1 *travel + pathfinding* check to intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
+
+   + **Traveler's knowledge** Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location
    
  * wealth (active | wealth category, possessions)
 
@@ -67,8 +75,8 @@ hopes of getting a good landmark or randomly walk out to a more familiar / open 
 A character can travel long distances with a map with precision depending on the quality of the map, landmarks and travel check. Traveler should
 assign the speed of the march if traveling requires physical activities. Fatigued travelers can't flee from an encounter. Travelers can travel
 up to PHY of the mount (or themselves) hours at full strategic speed and twice the PHY hours at half of strategic speed. To attempt a flee from
-an encounter, all the mounts must have to have at least one full hour of full-speed travel. Each character may choose to spend a travel point to
-get an hour of full-speed travel.
+an encounter, all the mounts must have to have at least one full hour of full-speed travel. Experienced traveler (who has access to *Travel* aspect)
+may choose to spend a travel point to get an hour of full-speed travel.
 
 Medium loaded mounts travel half the normal speed; heavily loaded mounts travel one third the normal speed. Dragging treats dragged load as half
 the load (you still have to be able to carry it to start dragging); using a wheeled vehicle treats carried load as quarter the weight (you still
