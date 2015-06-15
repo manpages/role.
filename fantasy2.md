@@ -55,6 +55,40 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
    + Spend a short rest to make a DC 1 *socialization + gather information* check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
 
+### Travel
+
+Each character has the amount of travel points equal to her travel rank.
+
+For each quarter of a mile deep in an unknown area without good landmarks, character must succeed DC 1 travel check or suffer 1 travel damage.
+If a character suffered 2 or more travel damage during one session of orientation, she becomes confused — she can still backtrack the path
+to the initial position. If a character suffers 3 or more travel damage or has 0 travel points, she is lost and can only wander around in
+hopes of getting a good landmark or randomly walk out to a more familiar / open space.
+
+A character can travel long distances with a map with precision depending on the quality of the map, landmarks and travel check. Traveler should
+assign the speed of the march if traveling requires physical activities. Fatigued travelers can't flee from an encounter. Travelers can travel
+up to PHY of the mount (or themselves) hours at full strategic speed and twice the PHY hours at half of strategic speed. To attempt a flee from
+an encounter, all the mounts must have to have at least one full hour of full-speed travel. Each character may choose to spend a travel point to
+get an hour of full-speed travel.
+
+Medium loaded mounts travel half the normal speed; heavily loaded mounts travel one third the normal speed. Dragging treats dragged load as half
+the load (you still have to be able to carry it to start dragging); using a wheeled vehicle treats carried load as quarter the weight (you still
+have to be able to cary half the load to start rolling).
+
+#### Loads (pounds) per phy level and penalties 
+
+| Phy    | ·  | ··  | ··· | ···· | ····· | Strategic speed    | Tactical speed        |
+|--------|---:|----:|----:|-----:|------:|:------------------:|:---------------------:|
+| Light  | 20 | 33  | 76  | 104  | 132   | —                  | —                     |
+| Medium | 40 | 66  | 111 | 146  | 182   | half the speed     | two thirds the speed  |
+| Heavy  | 80 | 132 | 181 | 231  | 282   | quarter the speed  | half the speed        |
+
+#### Fatigue and exhaustion
+
+Fatigued character suffers -1 *fatigue* pool penalty on physical checks.
+Exhausted character suffers a -1 *exhaustion* pool penalty on physical and mental checks.
+Traveling characters can spend a travel point to ignore effect of fatigue or exhaustion for an hour;
+Crawling characters can do the same with crawling points.
+
 ### Character sheet
 
 ```
@@ -62,30 +96,28 @@ player-constructed abilities. All the basic interactions within an aspect are co
 Race Subrace Size
 Name
 Diety
+States: []
 Primary aspect:
 Secondary aspects:
 
-# Combat
+# Combat Phy 1/1 Mnt 1/1
 Physical development ·
 Mental development ·
-HP 1/1
-MP 1/1
 
-# Crawling
+# Crawling 1/1
 Elusiveness ·
 Consequences []
 
-# Travel
+# Travel 1/1
 Pathfinding ·
 Strategic speed ·
 
-# Wealth
-Wealth category 1/1
+# Wealth 1/1
+Wealth category ·
 Posessions []
-Wealth Points 1/1
 Active 50 wu
 
-# Socialization
+# Socialization 1/1
 Identities: true identity
 Gather infromation ·
 Standings []
