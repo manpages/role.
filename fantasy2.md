@@ -33,9 +33,9 @@ player-constructed abilities. All the basic interactions within an aspect are co
    
  * crawling (resource restoration | elusiveness, consequences of harm)
  
-   + Restore 1 health point to allies over a short rest *(To short rest, spend one hour not engaged in a combat)*
+   + Grant 1 *crawling* temorary hit point to allies over a short rest *(To short rest, spend one hour not engaged in a combat)*. No retry *(the same character can't try this several times before taking at least a short rest)*
 
-   + Make a DC X *crawling + elusiveness* check to detect or set up traps or secret doors; or apply poison; or use grappling hook or a rope swiftly; where X is the item level of corresponding trap, secret door or posion; or circumstance difficulty of using a hook or a rope.
+   + Make a DC 1 *crawling + elusiveness* check to detect or set up traps or secret doors; or apply poison; or use grappling hook or a rope swiftly to perform a simple action; for items with item level 1, minorly hidden secret door or posion with item level 1
 
  * travel (distance | pathfinding, speed)
  
