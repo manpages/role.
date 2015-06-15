@@ -125,12 +125,6 @@ Crawling characters can do the same with crawling points.
 | Four-legged animal (small)  | 40ft            | +10                                              |
 | Unliving                    | -10ft           | +5                                               |
 
-
-
-Maximum strategic speed for medium humanoids is 4 miles/hour + 1 mile/hour for each point in Phy beyond third.
-Maximum strategic speed for small humanoids is 3 miles/hour + 1 mile/hour for each point in Phy beyond third.
-Maximum strategic speed for large animals is 
-
 ### Character sheet
 
 ```
