@@ -33,7 +33,7 @@ player-constructed abilities. All the basic interactions within an aspect are co
    
  * crawling (resource restoration | elusiveness, consequences of harm)
  
-   + Grant 1 *crawling* temorary hit point to allies over a short rest *(To short rest, spend one hour not engaged in a combat)*. No retry *(the same character can't try this several times before taking at least a short rest)*
+   + Grant 1 *crawling* temorary hit point to yourself and each friendly character resting with you over a short rest *(To short rest, spend one hour not engaged in a combat)*. No retry *(the same character can't try this several times before taking at least a short rest)*
 
    + Make a DC 1 *crawling + elusiveness* check to detect or set up traps or secret doors; or apply poison; or use grappling hook or a rope swiftly to perform a simple action; for items with item level 1, minorly hidden secret door or posion with item level 1
 
@@ -64,6 +64,21 @@ player-constructed abilities. All the basic interactions within an aspect are co
    + As you get this option, increase a standing with any faction by 1.
 
    + Spend a short rest to make a DC 1 *socialization + gather information* check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
+
+### Crawling
+
+#### Tactical speed
+
+| Type (size) / Template      | Tactical speed  | Speed bonus (for each point in Phy beyond third) |
+|:---------------------------:|----------------:|-------------------------------------------------:|
+| Humanoid (large)            | 40ft            | +5                                               |
+| Humanoid (medium)           | 30ft            | +5                                               |
+| Humanoid (small)            | 20ft            | +5                                               |
+| Four-legged animal (large)  | 70ft            | +10                                              |
+| Four-legged animal (medium) | 50ft            | +10                                              |
+| Four-legged animal (small)  | 40ft            | +10                                              |
+| Unliving                    | -10ft           | +5                                               |
+
 
 ### Travel
 
@@ -98,6 +113,22 @@ Fatigued character suffers -1 *fatigue* pool penalty on physical checks.
 Exhausted character suffers a -1 *exhaustion* pool penalty on physical and mental checks.
 Traveling characters can spend a travel point to ignore effect of fatigue or exhaustion for an hour;
 Crawling characters can do the same with crawling points.
+
+#### Strategic speed
+
+| Type (size) / Template      | Strategic speed | Speed bonus (for each point in Phy beyond third) |
+|:---------------------------:|----------------:|-------------------------------------------------:|
+| Humanoid (large)            | 5 miles/hour    | +1                                               |
+| Humanoid (medium)           | 4 miles/hour    | +1                                               |
+| Humanoid (small)            | 3 miles/hour    | +1                                               |
+| Four-legged animal (large)  | 25 miles/hour   | +2                                               |
+| Four-legged animal (medium) | 15 miles/hour   | +2                                               |
+| Four-legged animal (small)  | 5 miles/hour    | +2                                               |
+| Unliving                    | -1 miles/hour   | +1                                               |
+
+Maximum strategic speed for medium humanoids is 4 miles/hour + 1 mile/hour for each point in Phy beyond third.
+Maximum strategic speed for small humanoids is 3 miles/hour + 1 mile/hour for each point in Phy beyond third.
+Maximum strategic speed for large animals is 
 
 ### Character sheet
 
