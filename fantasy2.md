@@ -70,7 +70,7 @@ player-constructed abilities. All the basic interactions within an aspect are co
 #### Tactical speed
 
 | Type (size) / Template      | Tactical speed  | Speed bonus (for each point in Phy beyond third) |
-|:---------------------------:|----------------:|-------------------------------------------------:|
+|-----------------------------|----------------:|--------------------------------------------------|
 | Humanoid (large)            | 40ft            | +5                                               |
 | Humanoid (medium)           | 30ft            | +5                                               |
 | Humanoid (small)            | 20ft            | +5                                               |
@@ -117,7 +117,7 @@ Crawling characters can do the same with crawling points.
 #### Strategic speed
 
 | Type (size) / Template      | Strategic speed | Speed bonus (for each point in Phy beyond third) |
-|:---------------------------:|----------------:|-------------------------------------------------:|
+|-----------------------------|----------------:|:-------------------------------------------------|
 | Humanoid (large)            | 5 miles/hour    | +1                                               |
 | Humanoid (medium)           | 4 miles/hour    | +1                                               |
 | Humanoid (small)            | 3 miles/hour    | +1                                               |
