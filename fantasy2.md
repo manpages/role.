@@ -57,8 +57,6 @@ player-constructed abilities. All the basic interactions within an aspect are co
       + *Flee*, straight up running towards your destination, ignoring everything
         and everyone that doesn't pose lethal threat.
      
-     Pay 1 phy point: move extra 5ft this round.
- 
    + **Attack**: Attack for 1 *(To attack for X, clash phy vs phy, honoring
      equipment and tactical bonuses and penalties. If you win, deal X damage to
      target)*
@@ -126,16 +124,45 @@ player-constructed abilities. All the basic interactions within an aspect are co
         weapons reaload as a standard action)*.
      
 #### Crawling (resource restoration | elusiveness, consequences of harm)
+
+   + **Run, Tordek, run!**: Pay 1 crawling point: Both speeds of a target character 
+     who forfieted an encounter becomes equal to respecting speeds of the character
+     with the highest respecting speeds among characters who participated in this
+     encounter for the amount of minutes equal to your crawling.
  
-   + Grant 1 *crawling* temorary hit point to yourself and each friendly
-     character resting with you over a short rest *(To short rest, spend one hour
+   + **Restoration**: Pay 1 crawling point: Grant 1 *crawling* temorary hit point to target
+     character over a short rest *(To short rest, spend one hour
      not engaged in a combat)*. No retry *(the same character can't try this
      several times before taking at least a short rest)*
 
-   + Make a DC 1 *crawling + elusiveness* check to detect or set up traps or
-     secret doors; or apply poison; or use grappling hook or a rope swiftly to
-     perform a simple action; for items with item level 1, minorly hidden secret
-     door or posion with item level 1
+   + **Crawljitsu**: Pay 1 crawling ponit: Gain a *competence* emblem with "You
+     gain bonus equal to your *crawling* to your perception and stealth dp".
+     *(Emblem — continuous effect that lasts until the beginning of next full
+     rest, some emblems have triggers and they disappear when triggered)*
+
+   + **Endure distractions**: Make a DC 1 *crawling + 1dp* check to continue an interrupted
+     short rest. No retry.
+
+   + **Mental map**: Make a DC 1 *crawling + 1dp* check to ignore traveling-based confusion
+     while crawling.
+
+   + **Tomb raider's craft**: Make a DC 1 *crawling* check to accomplish one of the following —
+
+      + detect or set up item level 1 traps or secret doors; 
+      
+      + apply level 1 poison; 
+
+      + use grappling hook or a rope as a standard to perform a simple *(under
+        circumstances)* action.
+
+      + grant 1 *crawling* temporary structural point to an equipment or
+        crawling gear. At all times you can spend a short rest to restore 1
+        structural point of an equipment or crawling gear.
+
+   + **Tomb raider's knowledge**: Make a DC 1 *crawling* check to determine a minor fact about
+     a construction, a piece of architecture, a dungeon room, a treasure, an equipment, a gear,
+     a poison, tactical properties of terrain, etc. At all times you know how to set up camps and
+     take care of equipment and gear.
 
 #### Travel (distance | pathfinding, speed)
  
@@ -150,20 +177,20 @@ player-constructed abilities. All the basic interactions within an aspect are co
      fatigue caused by traveling (exhaustion and fatigue should be paid
      separately)
    
-   + **Travel safe**: Make a DC 1 *travel + pathfinding* check to predict
+   + **Travel safe**: Make a DC 1 *travel + 1dp* check to predict
      well-known dangerous places along your path
 
-   + **Intuit general direction**: Make a DC 1 *travel + pathfinding* check to
+   + **Intuit general direction**: Make a DC 1 *travel + 1dp* check to
      intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
 
    + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor
-     fact about land, plane, location, nation or inhabitants of a location; At
+     fact about land, plane, location, nation or inhabitants of a location, etc.; At
      all times *(“at all times” means that even a mage who has this option has
      the following effect)* you know how to use and take care of traveling tools
-     and mounts
+     and mounts.
 
    + **Traveler's craft**: Make a DC 1 *travel* check to grant 1 *traveling*
-     temorary hit point to a mount or 1 *traveling* temorary structural point to
+     temporary hit point to a mount or 1 *traveling* temorary structural point to
      a vehicle. No retry *(the same character can't try this several times before
      taking at least a short rest)*.; At all times you can spend a short rest to
      grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary
@@ -279,21 +306,17 @@ Physical development ·
 Mental development ·
 
 # Crawling 1/1
-Elusiveness ·
 Consequences []
 
 # Travel 1/1
-Pathfinding ·
-Strategic speed ·
+Strategic speed 3mi/h
 
 # Wealth 1/1
-Wealth category ·
 Posessions []
 Active 50 wu
 
 # Socialization 1/1
 Identities: true identity
-Gather infromation ·
 Standings []
 
 # Options
