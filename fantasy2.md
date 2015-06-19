@@ -324,6 +324,21 @@ Crawling characters can do the same with crawling points.
 
 ### Mounts and vehicles
 
+### Magic items
+
+Magic items are created by attaching auras. If you attach an aura, you become
+*linked* to this item and your mental points maximum is reduced by 1.  As a
+ritual, you may transfer ownership to a willing character. If you do, your
+mental points maximum is no longer reduced due to enchanting this item and
+willing character's mental points maximum is reduced by 1.
+
+As a ritual, owner of a magic item can unlink the item if she does, item gets
+disenchanted at next dawn. An arcane mage can spend a ritual to link an unlinked
+magic item.
+
+If the owner gets too far from the linked magic object, the object becomes
+unlinked.
+
 ### Constructing game entities
 
 ### Character sheet
@@ -349,6 +364,7 @@ Strategic speed 3mi/h
 
 # Wealth 1/1
 Posessions []
+Linked items []
 Active 50 wu
 
 # Socialization 1/1
