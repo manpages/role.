@@ -40,7 +40,7 @@ You can also choose to have all five aspects as your secondary aspects, see “M
 Every aspect of the game has at least one basic interaction that is used as a baseline for balancing
 player-constructed abilities. All the basic interactions within an aspect are considered to be a priori balanced against each other.
 
- * combat (health | physical development, mental development)
+#### Combat (health | physical development, mental development)
 
    + **Move**: Anchored — as a move action, move up to your *(tactical)* speed.
      *(Anchored — this part of the option doesn't scale using the constructor;
@@ -125,7 +125,7 @@ player-constructed abilities. All the basic interactions within an aspect are co
         light-crossbow-class weapons reaload as move action; heavy-crossbow-class
         weapons reaload as a standard action)*.
      
- * crawling (resource restoration | elusiveness, consequences of harm)
+#### Crawling (resource restoration | elusiveness, consequences of harm)
  
    + Grant 1 *crawling* temorary hit point to yourself and each friendly
      character resting with you over a short rest *(To short rest, spend one hour
@@ -137,7 +137,7 @@ player-constructed abilities. All the basic interactions within an aspect are co
      perform a simple action; for items with item level 1, minorly hidden secret
      door or posion with item level 1
 
- * travel (distance | pathfinding, speed)
+#### Travel (distance | pathfinding, speed)
  
    + **Quick march**: Pay 1 travel point: for the next travel, each character
      in the party gets +1 mile/hour *traveling* strategic speed bonus *(see
@@ -156,21 +156,38 @@ player-constructed abilities. All the basic interactions within an aspect are co
    + **Intuit general direction**: Make a DC 1 *travel + pathfinding* check to
      intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
 
-   + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location; At all times *(“at all times” means that even a mage who has this option has the following effect)* you know how to use and take care of traveling tools and mounts
+   + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor
+     fact about land, plane, location, nation or inhabitants of a location; At
+     all times *(“at all times” means that even a mage who has this option has
+     the following effect)* you know how to use and take care of traveling tools
+     and mounts
 
-   + **Traveler's craft**: Make a DC 1 *travel* check to grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary structural point to a vehicle. No retry *(the same character can't try this several times before taking at least a short rest)*.; At all times you can spend a short rest to grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary structural point to a vehicle; At all times you can craft level 1 traveling tools and level 1 vehicles.
+   + **Traveler's craft**: Make a DC 1 *travel* check to grant 1 *traveling*
+     temorary hit point to a mount or 1 *traveling* temorary structural point to
+     a vehicle. No retry *(the same character can't try this several times before
+     taking at least a short rest)*.; At all times you can spend a short rest to
+     grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary
+     structural point to a vehicle; At all times you can craft level 1 traveling
+     tools and level 1 vehicles.
    
- * wealth (active | wealth category, possessions)
+#### Wealth (active | wealth category, possessions)
 
-   + As you get this option, restore 1 wealth point. If you can't, add wealth units to your active equal to half of the unit value of your maximum wealth category.
+   + As you get this option, restore 1 wealth point. If you can't, add wealth
+     units to your active equal to half of the unit value of your maximum wealth
+     category.
 
-   + Spend 50 wu to make a DC 1 *wealth + wealth points* check to reveal a minor fact about a certain obscure lore, or a major fact about a widely-known lore or hire an outlook for a day. *(Wu stands for “wealth units” — the measure of wealth that is held in a character's inventory)*
+   + Spend 50 wu to make a DC 1 *wealth + wealth points* check to reveal a
+     minor fact about a certain obscure lore, or a major fact about a
+     widely-known lore or hire an outlook for a day. *(Wu stands for “wealth
+     units” — the measure of wealth that is held in a character's inventory)*
    
- * socialization (identity | gather information, standings)
+#### Socialization (identity | gather information, standings)
 
    + As you get this option, increase a standing with any faction by 1.
 
-   + Spend a short rest to make a DC 1 *socialization + gather information* check to reveal a minor fact about a certain obscure lore or a major fact about a widely-known lore.
+   + Spend a short rest to make a DC 1 *socialization + gather information*
+     check to reveal a minor fact about a certain obscure lore or a major fact
+     about a widely-known lore.
 
 ### Combat
 
