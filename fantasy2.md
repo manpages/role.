@@ -41,26 +41,120 @@ Every aspect of the game has at least one basic interaction that is used as a ba
 player-constructed abilities. All the basic interactions within an aspect are considered to be a priori balanced against each other.
 
  * combat (health | physical development, mental development)
+
+   + **Move**: Anchored — as a move action, move up to your *(tactical)* speed.
+     *(Anchored — this part of the option doesn't scale using the constructor;
+     move action — each round consists of a free action, a move action and a
+     standard action, you may replace latter actions with former ones)* As you
+     use **move** option, choose one — 
+
+      + Move *aggressively*, engaging opponent that tries to interfere with your
+        move. If you do, you may attempt to gain initiative; 
+      
+      + Move *defensively*, escaping or outrunning your opponents. You gain
+        defensive until end of the round;
+
+      + *Flee*, straight up running towards your destination, ignoring everything
+        and everyone that doesn't pose lethal threat.
+     
+     Pay 1 phy point: move extra 5ft this round.
  
-   + Attack for 1 *(To attack for X, clash phy vs phy, honoring equipment and tactical bonuses and penalties. If you win, deal X damage to target)*
-   
+   + **Attack**: Attack for 1 *(To attack for X, clash phy vs phy, honoring
+     equipment and tactical bonuses and penalties. If you win, deal X damage to
+     target)*
+
+   + **Charge**: When not engaged in melee combat and having a straight
+     unencumbered line of terrain between you and target character, you may attack for 1
+     combined with moving up to twice your *(tactical)* spped straight to the
+     target. If you do, you take 1 dp *engagement* penalty on all defensive clashes 
+     until the end of the round and gain except defensive clashes that
+     interrupt movement. You gain initiative until end of the round.
+
+   + **Grapple**: Clash with your *phy*, if you win, you and your opponent
+     become grappled *(while grappled, you can't use options and take 1 dp
+     *engagement* penalty to defesive clashes. You may choose to stop being
+     grappled if you do, your opponent gets a chance to grapple you in
+     response)*. Use this option only if you have at least as many free limbs
+     as your opponent.
+
+   + **Bull rush**: You may try to intercept target opponent. If you win the
+     phy clash, your opponent's movement is interrupted. If you moved this turn,
+     opponent gets prone until end of round *(opponent can only crawl at half the
+     speed or spend or spend move action to stand up, providing an opening, she
+     gets 1 dp *engagement* penalty to defensive clashes against melee attacks
+     and 1 dp *engagement* bonus to defensive clashes against ranged attacks).
+
+   + **Surprise**: As a full-round action, choose one —
+      
+      + Move up to half your move speed without
+        drawing attention to it. Reduce this movement by half for every opponent beyond
+        first.
+
+      + Use a standard action and opponents gain *surprised* until end of
+        round, opponents who readied a relevant action to your action clash *men*
+        or *phy* against your *phy*, if they win, their readied action is
+        triggered and they lose *surprised*.
+
+      Anchored — Use this option only if you are in full cover against every opponent
+      and you end the round in full cover against every opponent.
+
+   + **Stance**: while engaged in melee combat, at the beginning of the round you may
+     choose one —
+
+      + Gain initiative against target opponent engaged into melee with you:
+        you gain *initiative*. If opponent chosen to gain initiative as well, clash
+        *phy* vs *phy*, the winner gains initiative *(get 1 *melee* dp bonus on your
+        attacks against target opponent in melee and provide an opening with your attacks)*.
+
+      + Stay on the defense: you gain *defensive*.
+
+      + Parry the blows of target opponent: you gain *parrying*. You can't
+        choose attack. First unsuccessful melee attack this round against you
+        provide opening. You get 1 dp *melee* penalty on attacks this round and 1
+        dp *melee* bonus on defensive clashes against target opponent.
+
+      + Snipe: spend a move action to gain 1 dp *ranged* bonus to your ranged
+        attack clashes against target opponent until end of round.
+
+      + Just shoot the dam thing: you gain *defensive*.
+
+      + Rapid reload: gain 2 dp *ranged* penalty to your ranged attacks. You reload
+        one category faster. *(you can move after you shot shortbow-class weapons;
+        longbow-class weapons reload as a part of stanadrd action you fired it in,
+        instead of taking additional move action; 
+        light-crossbow-class weapons reaload as move action; heavy-crossbow-class
+        weapons reaload as a standard action)*.
+     
  * crawling (resource restoration | elusiveness, consequences of harm)
  
-   + Grant 1 *crawling* temorary hit point to yourself and each friendly character resting with you over a short rest *(To short rest, spend one hour not engaged in a combat)*. No retry *(the same character can't try this several times before taking at least a short rest)*
+   + Grant 1 *crawling* temorary hit point to yourself and each friendly
+     character resting with you over a short rest *(To short rest, spend one hour
+     not engaged in a combat)*. No retry *(the same character can't try this
+     several times before taking at least a short rest)*
 
-   + Make a DC 1 *crawling + elusiveness* check to detect or set up traps or secret doors; or apply poison; or use grappling hook or a rope swiftly to perform a simple action; for items with item level 1, minorly hidden secret door or posion with item level 1
+   + Make a DC 1 *crawling + elusiveness* check to detect or set up traps or
+     secret doors; or apply poison; or use grappling hook or a rope swiftly to
+     perform a simple action; for items with item level 1, minorly hidden secret
+     door or posion with item level 1
 
  * travel (distance | pathfinding, speed)
  
-   + **Quick march**: Pay 1 travel point: for the next travel, each character in the party gets +1 mile/hour *traveling* strategic speed bonus *(see “Strategic movement”)*
+   + **Quick march**: Pay 1 travel point: for the next travel, each character
+     in the party gets +1 mile/hour *traveling* strategic speed bonus *(see
+     “Strategic movement”)*
 
-   + **Extend stamina**: Pay 1 travel point: get an extra hour of full-speed traveling
+   + **Extend stamina**: Pay 1 travel point: get an extra hour of full-speed
+     traveling
 
-   + **Second wind**: Pay 1 travel point: for an hour, ignore exhaustion or fatigue caused by traveling (exhaustion and fatigue should be paid separately)
+   + **Second wind**: Pay 1 travel point: for an hour, ignore exhaustion or
+     fatigue caused by traveling (exhaustion and fatigue should be paid
+     separately)
    
-   + **Travel safe**: Make a DC 1 *travel + pathfinding* check to predict well-known dangerous places along your path
+   + **Travel safe**: Make a DC 1 *travel + pathfinding* check to predict
+     well-known dangerous places along your path
 
-   + **Intuit general direction**: Make a DC 1 *travel + pathfinding* check to intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
+   + **Intuit general direction**: Make a DC 1 *travel + pathfinding* check to
+     intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
 
    + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor fact about land, plane, location, nation or inhabitants of a location; At all times *(“at all times” means that even a mage who has this option has the following effect)* you know how to use and take care of traveling tools and mounts
 
