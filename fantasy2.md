@@ -122,6 +122,10 @@ player-constructed abilities. All the basic interactions within an aspect are co
         instead of taking additional move action; 
         light-crossbow-class weapons reaload as move action; heavy-crossbow-class
         weapons reaload as a standard action)*.
+
+##### Magical Combat
+
+Spend 1 mental point: restore 1 hit point or structure point of target character.
      
 #### Crawling (resource restoration | elusiveness, consequences of harm)
 
@@ -135,7 +139,7 @@ player-constructed abilities. All the basic interactions within an aspect are co
      not engaged in a combat)*. No retry *(the same character can't try this
      several times before taking at least a short rest)*
 
-   + **Crawljitsu**: Pay 1 crawling ponit: Gain a *competence* emblem with "You
+   + **Crawljutsu**: Pay 1 crawling ponit: Gain a *competence* emblem with "You
      gain bonus equal to your *crawling* to your perception and stealth dp".
      *(Emblem — continuous effect that lasts until the beginning of next full
      rest, some emblems have triggers and they disappear when triggered)*
@@ -163,6 +167,10 @@ player-constructed abilities. All the basic interactions within an aspect are co
      a construction, a piece of architecture, a dungeon room, a treasure, an equipment, a gear,
      a poison, tactical properties of terrain, etc. At all times you know how to set up camps and
      take care of equipment and gear.
+
+##### Magical Crawling
+
+Spend 1 mental point: target square becomes difficult terrain of chosen type.
 
 #### Travel (distance | pathfinding, speed)
  
@@ -196,25 +204,53 @@ player-constructed abilities. All the basic interactions within an aspect are co
      grant 1 *traveling* temorary hit point to a mount or 1 *traveling* temorary
      structural point to a vehicle; At all times you can craft level 1 traveling
      tools and level 1 vehicles.
+
+##### Magical Travel
+
+Spend 1 mental point: Summon a level-1 mount for one travel.
    
 #### Wealth (active | wealth category, possessions)
 
-   + As you get this option, restore 1 wealth point. If you can't, add wealth
-     units to your active equal to half of the unit value of your maximum wealth
-     category.
+   Welath points don't restore during rests. You can do a lot of things with wealth,
+   here is an idea of balanced basic interactions that are suggested to keep in mind
+   while deciding what a character can or can't do with their wealth.
 
-   + Spend 50 wu to make a DC 1 *wealth + wealth points* check to reveal a
+   + **Employ**: Pay 1 wealth point: Hire a minion or recruit a character with
+     experience points equal to the base adventurers' experience points for one
+     local mission (that doesn't involve trans-region travel).
+
+   + **Bribe**: Pay 1 wealth point: Make a minor decision that has a local impact.
+
+   + **Acquire magic item**: Pay 1 wealth point: acquire ownership of a minor
+     magic item *(See “Magic Items”)*.
+
+   + **Income**: As you get this option, restore 1 wealth point. If you can't,
+     add wealth units to your active equal to half of the unit value of your
+     maximum wealth category.
+
+   + Spend 50 wu to make a DC 1 *wealth + 1dp* check to reveal a
      minor fact about a certain obscure lore, or a major fact about a
      widely-known lore or hire an outlook for a day. *(Wu stands for “wealth
      units” — the measure of wealth that is held in a character's inventory)*
+
+##### Magical Wealth
+
+Spend 1 mental point: Target character gets *luck* emblem with "next time you
+would receive wealth units, you get twice that amount instead".
    
 #### Socialization (identity | gather information, standings)
 
    + As you get this option, increase a standing with any faction by 1.
 
-   + Spend a short rest to make a DC 1 *socialization + gather information*
+   + Spend a short rest to make a DC 1 *socialization*
      check to reveal a minor fact about a certain obscure lore or a major fact
      about a widely-known lore.
+
+##### Magical Socialization
+
+Spend 1 mental point: Target character gets *luck* emblem with "next time you
+would discover minor fact, discover lesser fact instead". *(Facts are minor,
+lesser, concealed, major, secret)*
 
 ### Combat
 
