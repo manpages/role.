@@ -98,7 +98,7 @@ player-constructed abilities. All the basic interactions within an aspect are co
       Anchored — Use this option only if you are in full cover against every opponent
       and you end the round in full cover against every opponent.
 
-   + **Stance**: while engaged in melee combat, at the beginning of the round you may
+   + **Stance**: while engaged in combat, at the beginning of the round you may
      choose one —
 
       + Gain initiative against target opponent engaged into melee with you:
