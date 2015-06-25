@@ -29,6 +29,7 @@ Types of bonuses are
 
  + Luck
  + Armor
+ + Weapon
  + Equipment
  + Tactical
  + Engagement
@@ -38,6 +39,7 @@ Types of bonuses are
  + Travel
  + Fatigue
  + Exhaustion
+ + Magic
 
 To calculate total of a bonus, take largest bonus of a name, take largest
 (by absolute value) penalty of a name and add them together.
@@ -328,6 +330,8 @@ lines. Also, how well they can escape after a lost encounter. A character with g
 crawling score knows how and when throw thunder stones and nets, use some control
 magic to make sure that even the slowest of their allies manage to flee.
 
+*TODO*
+
 ### Travel
 
 Each character has the amount of travel points equal to her travel rank.
@@ -411,11 +415,180 @@ Wealth points, however show the wealth category of a character.
 
 ### Socialization
 
+*TODO*
+
 ### Magic
+
+Mages can do everything. Worse than experts, yet they really can.
+
+When you create a character, you can choose to be a mage. If you do so, you may choose
+if you want to play arcane magician (Art) who uses Weave to construct spells or divine
+magician (Might) who uses divine power to perform miracles.
+
+Arcane magicians can furthermore choose to either be a Wizard or a Sorcerer.
+Wizards prepare spells but have more spell slots, Sorcerers cast spells spontaneously
+(much like divine mages), but have less spell slots.
+
+All the divine mages are spontaneous casters. Divine mages aren't affected by armor but
+lose one aspect, while gaining an additional cantrip in one of the aspects. 
+
+#### Cantrips and basic interactions
+
+A mage selects one basic interaction per aspect in which she has at least ·· — she can
+use this option at will as a spell-like effect. When mage achieves ·· in an aspect
+she selects one more basic interaction and can cast it as a spell. Mages also get
+“Magical Aspect” options for each aspect when she gets · in this aspect (see
+“Magical Travel” for a reference).
+
+#### Spell slots
+
+Wizard of level L may prepare up to L spells of level 1, L-1 of level 2, ... 1 of level L.
+Sorcerers have those numbers reduced by 1 at a minimum of 1 (sorcerer ··· has 2 1st level
+spell slots, 1 2nd level and 1 3rd level).
+
+#### Casting for mental points
+
+At any time, a caster may cast any spell she may cast by spending a mental point.
+Wizards, however, have to prepare those spells as well.
+
+#### Spell book and foci
+
+Wizards ought to have a spell book to prepare spells for a day. Divine mages ought to
+have a focus through which they're casting spells — a holy symbol for a cleric, a 
+staff for a druid, what have you. Losing focus means that a character can't channel 
+divine energy. A character may have more than one focus or obtain a new focus.
+
+A spell book costs 10 wu + 1 wu for each 1st level spell inscribed, a focus costs 1 wu.
 
 ### Equipment and items
 
+Equipment has levels, each next level is more powerful than previous (consult
+“Option Power” table); Each next level costs ten times as the cost of current level.
+
+Basic tools required for checks such as disarming traps or mending things add 0 dp to
+checks and cost one tenth of a wu. Second level tools add 1 dp, third level tools
+add 1 dp and +1, fourth level tools add 3 dp and +1, fifth level tools add 3 dp and +2, 
+sixth level tools add 4 dp and +2.
+
+#### Armor
+
+##### Light armor
+
+Base price: 0.1 wu
+
+Light armor adds temporary *armor* physical points — 1 at first level.
+
+##### Medium armor
+
+Base price: 1 wu
+
+Medium armor causes wielder to be medium loaded. First level medium armor
+grants -1 *armor* arcane casting dp penalty, 1 temporary *armor* physical point
+ and +1 defense *armor* dp bonus.
+
+##### Heavy armor
+
+Base price: 10 wu
+
+Heavy armor causes wielder to be heavy loaded. First level heavy armor grants
+-2 *armor* arcane casting dp penalty, 2 temporary *armor* physical points and
++1 defense *armor* dp bonus.
+
+##### Shield
+
+Base prices: 0.1 wu, 1 wu, 5 wu
+
+Shields grant -1 *equipment* attack dp penalty and +1 *equipment* defense dp bonus.
+Large shield increases penalties and bonuses to 2.
+Tower shield provides cover but you may not perform attacks in the direction covered
+with a tower shield.
+
+#### Weapons
+
+All bonuses and penalties weapons grant are of type *weapon*.
+Two-handed weapons grant +1 damage and anchored defense dp penalty of the same
+absolute value.
+
+##### Martial
+
+Base price: 1 wu
+
+###### Sword-likes
+
+First level sword grants +1 attack dp.
+
+###### Axe-likes
+
+First level axe grants +1 attack dp and -1 defense dp.
+While having initiative axes grant +2 attack dp instead.
+You may attack axe wielders normally with any weapon.
+You can't parry with an axe.
+
+###### Mace-likes
+
+Same as axes, except you get +1 defense dp bonus instead
+while defending and initiative doesn't grant bonuses.
+
+###### Spear-likes
+
+First level spear grants -1 defense dp and doesn't provide
+damage bonus of a two-handed weapon. Spear-likes is a long weapon, so wielder
+of a spear cannot be attacked in melee unless flanked or surprised.
+
+##### Simple
+
+Base price: 0.1 wu
+
+###### Dagger-likes
+
+First level dagger doesn't provide any bonuses or penalties. It is a short weapon,
+you can't attack wielders of normal-sized or long weapons unless flanking or
+them being surprised.
+
+###### Sling-likes
+
+Anchored range increment: 15ft. -1 *weapon* attack dp penalty. Reload: move action,
+may be combined with non-surprise movement.
+
+###### Staff-likes
+
+Long weapon, -1 *weapon* dp penalty to both attack and defense. Can be used to
+parry, if used as such, loses two-handed bonus damage and *long* attribute.
+Change mode of staff is a move action that can be combined with movement.
+
+##### Exotic
+
+Base price: 10 wu
+
+Designed by players with a proof of equivalence to a first level power of a
+martial weapon, or a bow, or a crossbow.
+
+##### Bows
+
+###### Short-bow-likes
+
+Range increment: 60 ft. Reload: free action. You can't move in the round when
+you reload a short bow.
+
+###### Long-bow-likes
+
+Range increment: 100 ft. Reload: move action.
+
+##### Crossbows
+
+##### Light-crossbow-likes
+
+Range increment: 120 ft. Reload: standard action.
+Anchored +1 *weapon* damage bonus.
+
+##### Heavy-crossbow-likes
+
+Range increment: 210 ft. Reload: full round action.
+Anchored +1 *weapon* damage bonus.
+
 ### Mounts and vehicles
+
+*TODO*
 
 ### Magic items
 
@@ -433,6 +606,22 @@ If the owner gets too far from the linked magic object, the object becomes
 unlinked.
 
 ### Constructing game entities
+
+All the options except for basic ones are constructed by players and stored in a
+publicly available repository. You may compose different effects within "aspect pie"
+for which you're designing an option. For half-a-level of power, you may add a “twist” to
+your option — a highly conditional effect that will happen on average, approximately once
+or twice per combat. You can't make twists specifically targeting playable races or PCs.
+You may limit a core (non-twist) effect to target playable races or PCs gaining 
+one-quarter-of-an-option-power-level for this drawback. While constructing an option, you
+can spend power level gained that way to acquire twists, not core options.
+
+Please provide an evidence of balance while constructing options, the closer it is to a
+mathematical proof, the less work DM will have to do to check if it is balanced.
+
+If there is a serious concern about a certain option, a computer program shall
+be written to check the balance of effects against same level of basic
+interactions (see “Balance criteria” in other system documents).
 
 ### Character sheet
 
@@ -455,10 +644,10 @@ Consequences []
 # Travel 1/1
 Strategic speed 3mi/h
 
-# Wealth 1/1
+# Wealth 0/1
 Posessions []
 Linked items []
-Active 50 wu
+Active 10 wu
 
 # Socialization 1/1
 Identities: true identity
@@ -468,7 +657,6 @@ Standings []
 ## Combat
 ## Crawling
 ## Travel
-## Wealth
 ## Socialization
 
 # MLPc
