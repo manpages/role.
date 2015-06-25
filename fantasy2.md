@@ -576,12 +576,12 @@ Range increment: 100 ft. Reload: move action.
 
 ##### Crossbows
 
-##### Light-crossbow-likes
+###### Light-crossbow-likes
 
 Range increment: 120 ft. Reload: standard action.
 Anchored +1 *weapon* damage bonus.
 
-##### Heavy-crossbow-likes
+###### Heavy-crossbow-likes
 
 Range increment: 210 ft. Reload: full round action.
 Anchored +1 *weapon* damage bonus.
