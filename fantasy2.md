@@ -17,12 +17,41 @@ below.
 There are two types of dice rolls in Role. — checks and clashes. Consult
 “rules.org” for details.
 
+
+| Level  | ·  | ·· | ··· | ···· | ····· | ······ |
+|--------|---:|---:|----:|-----:|------:|-------:|
+| Power  | 1  | 1½ | 2   | 4    | 4½    | 5      |
+
+Notice the spike of option power between third and fourth level of aspect!
+
+Some abilities grant bonuses, bonuses with the same name (type) don't stack.
+Types of bonuses are
+
+ + Luck
+ + Armor
+ + Equipment
+ + Tactical
+ + Engagement
+ + Precision
+ + Competence
+ + Crawling
+ + Travel
+ + Fatigue
+ + Exhaustion
+
+To calculate total of a bonus, take largest bonus of a name, take largest
+(by absolute value) penalty of a name and add them together.
+
 ### Abilities and effects
 
 Options provide abilities — some of those are triggered, some of those are
 activated, some have costs, 
 Some options outright yield continuous effects. Consult relevant rules of
 “Magic: the Gathering” to get intuition about how abilities and effects work.
+
+### Power
+
+Pools scale linearly; option of power scales under this progression:
 
 ## Wheel of aspects
 
@@ -50,8 +79,9 @@ You can also choose to have all five aspects as your secondary aspects, see “M
 
 ### Basic interactions
 
-Every aspect of the game has at least one basic interaction that is used as a baseline for balancing
-player-constructed abilities. All the basic interactions within an aspect are considered to be a priori balanced against each other.
+Every aspect of the game has at least one basic interaction that is used as a
+baseline for balancing player-constructed abilities. All the basic interactions
+within an aspect are considered to be a priori balanced against each other.
 
 #### Combat (health | physical development, mental development)
 
@@ -70,20 +100,12 @@ player-constructed abilities. All the basic interactions within an aspect are co
       + *Flee*, straight up running towards your destination, ignoring everything
         and everyone that doesn't pose lethal threat.
 
-      + Move up to half your move speed without
+      + *Surprise* Move up to half your move speed without
         drawing attention to it. Reduce this movement by half for every opponent beyond
         first.
         Anchored — Use this option only if you are in full cover against every opponent
         and you end the round in full cover against every opponent.
 
-      + Use a standard action and opponents gain *surprised* until end of
-        round, opponents who readied a relevant action to your action clash *men*
-        or *phy* against your *phy*, if they win, their readied action is
-        triggered and they lose *surprised*.
-        Anchored — Use this option only if you are in full cover against every opponent
-        and you end the round in full cover against every opponent.
-
-     
    + **Attack**: Attack for 1 *(To attack for X, clash phy vs phy, honoring
      equipment and tactical bonuses and penalties. If you win, deal X damage to
      target)*
@@ -117,28 +139,36 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
       + Gain initiative against target opponent engaged into melee with you:
         you gain *initiative*. If opponent chosen to gain initiative as well, clash
-        *phy* vs *phy*, the winner gains initiative *(get 1 *melee* dp bonus on your
+        *phy* vs *phy*, the winner gains initiative *(get 1 *stance* dp bonus on your
         attacks against target opponent in melee and provide an opening with your attacks)*.
 
       + Stay on the defense: you gain *defensive*.
 
       + Parry the blows of target opponent: you gain *parrying*. You can't
         choose attack. First unsuccessful melee attack this round against you
-        provide opening. You get 1 dp *melee* penalty on attacks this round and 1
-        dp *melee* bonus on defensive clashes against target opponent.
+        provide opening. You get 1 dp *stance* penalty on attacks this round and 1
+        dp *stance* bonus on defensive clashes against target opponent.
 
-      + Snipe: spend a move action to gain 1 dp *ranged* bonus to your ranged
+      + Snipe: spend a move action to gain 1 dp *stance* bonus to your ranged
         attack clashes against target opponent until end of round.
 
       + Just shoot the dam thing: you gain *defensive*.
 
-      + Rapid reload: gain 2 dp *ranged* penalty to your ranged attacks. You reload
+      + Rapid reload: gain 2 dp *precision* penalty to your ranged attacks. You reload
         one category faster. *(you can move after you shot shortbow-class weapons;
         longbow-class weapons reload as a part of stanadrd action you fired it in,
         instead of taking additional move action; 
         light-crossbow-class weapons reaload as move action; heavy-crossbow-class
         weapons reaload as a standard action)*.
 
+      + Surprise: Use a standard action and opponents gain *surprised* until end of
+        round, opponents who readied a relevant action to your action clash *men*
+        or *phy* against your *phy*, if they win, their readied action is
+        triggered and they lose *surprised*.
+        Anchored — Use this option only if you are in full cover against every opponent
+        and you end the round in full cover against every opponent.
+
+     
 ##### Magical Combat
 
 Spend 1 mental point: restore 1 hit point or structure point of target character.
@@ -275,26 +305,56 @@ lesser, concealed, major, secret)*
 
 ### Combat
 
+Combat happens on a D&D-esque tactical battlefield. Each player has four tokens —
+character token and grey, red and blue character tokens. Grey denotes flee move,
+red denotes aggressive move, blue denotes defensive move.
+
+Standard D&D intuitions about difficult terrain and cover apply.
+
+Requests of actions are told to DM and all resolved together in round-like time
+frames.
+
+Physical points denote ability to perform safely and soundly in combat. When
+physical points are at 0, it's extremely unsafe for a character to participate
+in any risky activities. Next blows delivered will make character wounded,
+if the character will happen to be continuously targeted after she's out of combat
+and drops below -*phy*, she drops unconcious. A character with phy points below
+zero can't participate in combat.
+
 ### Crawling
+
+Crawling denotes how well characters can survive lengthy strolls behind the enemy
+lines. Also, how well they can escape after a lost encounter. A character with good
+crawling score knows how and when throw thunder stones and nets, use some control
+magic to make sure that even the slowest of their allies manage to flee.
 
 ### Travel
 
 Each character has the amount of travel points equal to her travel rank.
 
-For each quarter of a mile deep in an unknown area without good landmarks, character must succeed DC 1 travel check or suffer 1 travel damage.
-If a character suffered 2 or more travel damage during one session of orientation, she becomes confused — she can still backtrack the path
-to the initial position. If a character suffers 3 or more travel damage or has 0 travel points, she is lost and can only wander around in
-hopes of getting a good landmark or randomly walk out to a more familiar / open space.
+For each quarter of a mile deep in an unknown area without good landmarks,
+character must succeed DC 1 travel check or suffer 1 travel damage.  If a
+character suffered 2 or more travel damage during one session of orientation,
+she becomes confused — she can still backtrack the path to the initial
+position. If a character suffers 3 or more travel damage or has 0 travel
+points, she is lost and can only wander around in hopes of getting a good
+landmark or randomly walk out to a more familiar / open space.
 
-A character can travel long distances with a map with precision depending on the quality of the map, landmarks and travel check. Traveler should
-assign the speed of the march if traveling requires physical activities. Fatigued travelers can't flee from an encounter. Travelers can travel
-up to PHY of the mount (or themselves) hours at full strategic speed and twice the PHY hours at half of strategic speed. To attempt a flee from
-an encounter, all the mounts must have to have at least one full hour of full-speed travel. Experienced traveler (who has access to *Travel* aspect)
-may choose to spend a travel point to get an hour of full-speed travel.
+A character can travel long distances with a map with precision depending on
+the quality of the map, landmarks and travel check. Traveler should assign the
+speed of the march if traveling requires physical activities. Fatigued
+travelers can't flee from an encounter. Travelers can travel up to PHY of the
+mount (or themselves) hours at full strategic speed and twice the PHY hours at
+half of strategic speed. To attempt a flee from an encounter, all the mounts
+must have to have at least one full hour of full-speed travel. Experienced
+traveler (who has access to *Travel* aspect) may choose to spend a travel point
+to get an hour of full-speed travel.
 
-Medium loaded mounts travel half the normal speed; heavily loaded mounts travel one third the normal speed. Dragging treats dragged load as half
-the load (you still have to be able to carry it to start dragging); using a wheeled vehicle treats carried load as quarter the weight (you still
-have to be able to cary half the load to start rolling).
+Medium loaded mounts travel half the normal speed; heavily loaded mounts travel
+one third the normal speed. Dragging treats dragged load as half the load (you
+still have to be able to carry it to start dragging); using a wheeled vehicle
+treats carried load as quarter the weight (you still have to be able to cary
+half the load to start rolling).
 
 #### Loads (pounds) per phy level and penalties 
 
@@ -307,9 +367,13 @@ have to be able to cary half the load to start rolling).
 #### Fatigue and exhaustion
 
 Fatigued character suffers -1 *fatigue* pool penalty on physical checks.
-Exhausted character suffers a -1 *exhaustion* pool penalty on physical and mental checks.
-Traveling characters can spend a travel point to ignore effect of fatigue or exhaustion for an hour;
-Crawling characters can do the same with crawling points.
+
+Exhausted character suffers a -1 *exhaustion* pool penalty on physical and
+mental checks.  
+
+Traveling characters can spend a travel point to ignore effect of fatigue or
+exhaustion for an hour; Crawling characters can do the same with crawling
+points.
 
 #### Strategic speed
 
@@ -336,6 +400,14 @@ Crawling characters can do the same with crawling points.
 | Unliving                    | -10ft           | +5                                               |
 
 ### Wealth
+
+As an aspect of makers, artificers and managers, wealth is not available to PCs.
+Wealth points, however show the wealth category of a character.
+
+| Wealth | ·  | ·· | ··· | ···· | ····· | ······ | “Free” transactions | Usable active         |
+|--------|---:|---:|----:|-----:|------:|-------:|:-------------------:|:---------------------:|
+| WU     | 10 | 50 | 250 | 1250 | 6500  | 32500  | 1:100               | 1:10                  |
+| Income |  1 |  4 |  16 |   64 |  256  |  1024  | —                   | —                     |
 
 ### Socialization
 
