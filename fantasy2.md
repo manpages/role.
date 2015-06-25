@@ -2,13 +2,27 @@
 
 ## Game mechanics
 
+There is a number of aspects in the game and points attached to each aspect
+with point maximum equal to the score in its aspect. As a character gets
+another point in aspect, they get some options in this aspect.
+
+An exception is Combat, which uses two special aspects in the game — *phy*
+(physical development) and *men* (mental development). Those two special
+aspects don't define options, instead governing fundamental interactions with
+the world. Combat grants combat options (see “Basic Interactions. Combat.”
+below.
+
 ### Dice pools and bonuses
 
-### Clashes
-
-### Difficulty classes
+There are two types of dice rolls in Role. — checks and clashes. Consult
+“rules.org” for details.
 
 ### Abilities and effects
+
+Options provide abilities — some of those are triggered, some of those are
+activated, some have costs, 
+Some options outright yield continuous effects. Consult relevant rules of
+“Magic: the Gathering” to get intuition about how abilities and effects work.
 
 ## Wheel of aspects
 
@@ -23,8 +37,7 @@ There are five aspects to a fantasy game —
  * socialization (fitting into the community, gethering infomration)
 
 As you generate a character, you can pick one primary aspect and two secondary ones.
-Right now, to impose interesting restrictions and be tropey, it's allowed to pick any
-aspect as primary and its neighbours as secondaries.
+Wealth aspect is closed for player characters in Generic Epic Fantasy Constructor Playtest.
 
 Primary aspects are more developed than secondary aspects: Nth level of primary aspect
 grants access to options of Nth level of this aspect, whilst Nth level of secondary
@@ -211,27 +224,8 @@ Spend 1 mental point: Summon a level-1 mount for one travel.
    
 #### Wealth (active | wealth category, possessions)
 
-   Welath points don't restore during rests. You can do a lot of things with wealth,
-   here is an idea of balanced basic interactions that are suggested to keep in mind
-   while deciding what a character can or can't do with their wealth.
-
-   + **Employ**: Pay 1 wealth point: Hire a minion or recruit a character with
-     experience points equal to the base adventurers' experience points for one
-     local mission (that doesn't involve trans-region travel).
-
-   + **Bribe**: Pay 1 wealth point: Make a minor decision that has a local impact.
-
-   + **Acquire magic item**: Pay 1 wealth point: acquire ownership of a minor
-     magic item *(See “Magic Items”)*.
-
-   + **Income**: As you get this option, restore 1 wealth point. If you can't,
-     add wealth units to your active equal to half of the unit value of your
-     maximum wealth category.
-
-   + Spend 50 wu to make a DC 1 *wealth + 1dp* check to reveal a
-     minor fact about a certain obscure lore, or a major fact about a
-     widely-known lore or hire an outlook for a day. *(Wu stands for “wealth
-     units” — the measure of wealth that is held in a character's inventory)*
+*Wealth aspect is not available to player characters. It governs management,
+resource allocation, crafts, enchanting, etc.*
 
 ##### Magical Wealth
 
