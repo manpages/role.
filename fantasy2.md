@@ -69,6 +69,20 @@ player-constructed abilities. All the basic interactions within an aspect are co
 
       + *Flee*, straight up running towards your destination, ignoring everything
         and everyone that doesn't pose lethal threat.
+
+      + Move up to half your move speed without
+        drawing attention to it. Reduce this movement by half for every opponent beyond
+        first.
+        Anchored — Use this option only if you are in full cover against every opponent
+        and you end the round in full cover against every opponent.
+
+      + Use a standard action and opponents gain *surprised* until end of
+        round, opponents who readied a relevant action to your action clash *men*
+        or *phy* against your *phy*, if they win, their readied action is
+        triggered and they lose *surprised*.
+        Anchored — Use this option only if you are in full cover against every opponent
+        and you end the round in full cover against every opponent.
+
      
    + **Attack**: Attack for 1 *(To attack for X, clash phy vs phy, honoring
      equipment and tactical bonuses and penalties. If you win, deal X damage to
@@ -95,20 +109,9 @@ player-constructed abilities. All the basic interactions within an aspect are co
      gets 1 dp *engagement* penalty to defensive clashes against melee attacks
      and 1 dp *engagement* bonus to defensive clashes against ranged attacks).
 
-   + **Surprise**: As a full-round action, choose one —
+   + **Disarm**: While having *initiative*, you may choose to clash *phy* vs *phy*.
+     If you win, your opponent is disarmed.
       
-      + Move up to half your move speed without
-        drawing attention to it. Reduce this movement by half for every opponent beyond
-        first.
-
-      + Use a standard action and opponents gain *surprised* until end of
-        round, opponents who readied a relevant action to your action clash *men*
-        or *phy* against your *phy*, if they win, their readied action is
-        triggered and they lose *surprised*.
-
-      Anchored — Use this option only if you are in full cover against every opponent
-      and you end the round in full cover against every opponent.
-
    + **Stance**: while engaged in combat, at the beginning of the round you may
      choose one —
 
@@ -152,7 +155,7 @@ Spend 1 mental point: restore 1 hit point or structure point of target character
      not engaged in a combat)*. No retry *(the same character can't try this
      several times before taking at least a short rest)*
 
-   + **Crawljutsu**: Pay 1 crawling ponit: Gain a *competence* emblem with "You
+   + **Crawljutsu**: Pay 1 crawling point: Gain a *competence* emblem with "You
      gain bonus equal to your *crawling* to your perception and stealth dp".
      *(Emblem — continuous effect that lasts until the beginning of next full
      rest, some emblems have triggers and they disappear when triggered)*
@@ -234,11 +237,35 @@ would receive wealth units, you get twice that amount instead".
    
 #### Socialization (identity | gather information, standings)
 
-   + As you get this option, increase a standing with any faction by 1.
+   + **Friendly**: Pay 1 socialization point: move one relation category of a
+     non-hostile character during a social interaction. This effect is of type
+     *charm*.
 
-   + Spend a short rest to make a DC 1 *socialization*
-     check to reveal a minor fact about a certain obscure lore or a major fact
-     about a widely-known lore.
+   + **Sense and conceal motive**: Pay 1 socialization point: get to know or
+     hide a minor fact during conversation. This effect is of type *charm*.
+     *(Please note that you can try to lie or try to understand the motives of
+     characters you encounter outside of mechanical aspects, however activating
+     ability granted by this option you know for sure that a certain fact is
+     well-hidden or some hidden fact is revealed)*
+
+   + **Inspire**: Pay 1 socialization point: inspire someone to do something,
+     make them believe in themselves, calm someone down or reduce an effect of
+     insanity.
+
+   + **Gather information**: Make a DC 1 *socialization + 1dp* check to gather
+     a piece of minor information in a densely inhabited place.
+
+   + **Suggest**: Clash *socialization* vs (*men* or *socialization*) to suggest
+     a minor action to someone.
+
+   + **Honey**: Make a DC 1 *socialization* check to find out how to approach the
+     target.
+
+   + **Impromptu**: Make a DC 1 *socialization* check to quickly come up with an
+     excuse or plausible explanation of minor fact. *(Mechanically that means that
+     DM will give you, the player, time to come up with a good excuse for a certain
+     question about minor fact, such as party breaking into a house, hiding, pick
+     pocketing, etc)*
 
 ##### Magical Socialization
 
