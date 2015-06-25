@@ -565,6 +565,8 @@ martial weapon, or a bow, or a crossbow.
 
 ##### Bows
 
+Range increments are anchored.
+
 ###### Short-bow-likes
 
 Range increment: 60 ft. Reload: free action. You can't move in the round when
@@ -575,6 +577,8 @@ you reload a short bow.
 Range increment: 100 ft. Reload: move action.
 
 ##### Crossbows
+
+Range increments are anchored.
 
 ###### Light-crossbow-likes
 
