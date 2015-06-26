@@ -67,8 +67,10 @@ There are five aspects to a fantasy game —
  * wealth (being able to effectively function within economy system)
  * socialization (fitting into the community, gethering infomration)
 
-As you generate a character, you can pick one primary aspect and two secondary ones.
-Wealth aspect is closed for player characters in Generic Epic Fantasy Constructor Playtest.
+As you generate a character, you can pick one primary aspect and two secondary
+ones.  Wealth aspect as crafting, artificing and enchanting is closed for
+player characters in Generic Epic Fantasy Constructor Playtest. Instead, there is
+an adventuring-oriented aspect.
 
 Primary aspects are more developed than secondary aspects: Nth level of primary aspect
 grants access to options of Nth level of this aspect, whilst Nth level of secondary
@@ -190,7 +192,8 @@ Spend 1 mental point: restore 1 hit point or structure point of target character
    + **Crawljutsu**: Pay 1 crawling point: Gain a *competence* emblem with "You
      gain bonus equal to your *crawling* to your perception and stealth dp".
      *(Emblem — continuous effect that lasts until the beginning of next full
-     rest, some emblems have triggers and they disappear when triggered)*
+     rest, some emblems have triggers and they disappear when triggered)*. Linked.
+     *(Linked — costs, drawbacks and effects scale together)*.
 
    + **Endure distractions**: Make a DC 1 *crawling + 1dp* check to continue an interrupted
      short rest. No retry.
@@ -259,8 +262,39 @@ Spend 1 mental point: Summon a level-1 mount for one travel.
    
 #### Wealth (active | wealth category, possessions)
 
-*Wealth aspect is not available to player characters. It governs management,
-resource allocation, crafts, enchanting, etc.*
+*Wealth is the shape it exists for NPC artificers and enchanters is not
+available to player characters. It governs management, resource allocation,
+crafts, enchanting, etc.*
+
+Wealth points don't restore after full rest. You can't improve your wealth
+score by spending experience points except for experience points spent during
+character creation.
+
+  + **Shut up and take my money**: Pay 1 wealth point: If you lost in an
+    encounter, if agenda of opponents permits bribe, flee successfully.
+
+  + **Butter up**: Pay 1 wealth point: Increase standings with target faction
+    by 1 category over a week.
+
+  + **Would you kindly**: Pay 1 wealth point: Suggest a minor decision to at
+    least a loyal faction.
+
+  + **Gather more information**: Make a DC 1 *wealth + 1dp* check to get +1
+    *competence* replacement bonus on your next gather information check. If you
+    fail, get -1 *competence* replacement penalty on it. You pay according amount
+    of WU.
+
+  + **Consult maps**: Make a DC 1 *wealth + 1dp* check to get +1 *competence*
+    replacement on your next travel planning check. If you fail, get -1
+    *competence* replacement penalty on it. You pay according amount of WU.
+
+  + **Aristocratic memory**: Make a DC 1 *wealth* check to get +1 *competence*
+    replacement bonus on your next mental map check. If you fail, get -1
+    *competence* replacement penalty on it.
+
+  + **Wait!**: Make a DC 1 *wealth* check to get unfriendly opponents agenda of
+    which permits bribe to talk before the combat starts or continues beyond
+    surprise round.
 
 ##### Magical Wealth
 
@@ -565,8 +599,6 @@ martial weapon, or a bow, or a crossbow.
 
 ##### Bows
 
-Range increments are anchored.
-
 ###### Short-bow-likes
 
 Range increment: 60 ft. Reload: free action. You can't move in the round when
@@ -578,14 +610,12 @@ Range increment: 100 ft. Reload: move action.
 
 ##### Crossbows
 
-Range increments are anchored.
-
-###### Light-crossbow-likes
+##### Light-crossbow-likes
 
 Range increment: 120 ft. Reload: standard action.
 Anchored +1 *weapon* damage bonus.
 
-###### Heavy-crossbow-likes
+##### Heavy-crossbow-likes
 
 Range increment: 210 ft. Reload: full round action.
 Anchored +1 *weapon* damage bonus.
