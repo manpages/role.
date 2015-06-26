@@ -517,16 +517,16 @@ Light armor adds temporary *armor* physical points — 1 at first level.
 Base price: 1 wu
 
 Medium armor causes wielder to be medium loaded. First level medium armor
-grants -1 *armor* arcane casting dp penalty, 1 temporary *armor* physical point
- and +1 defense *armor* dp bonus.
+grants -1 *armor* arcane casting and dexterity-related *phy* checks dp penalty,
+1 temporary *armor* physical point and +1 defense *armor* dp bonus.
 
 ##### Heavy armor
 
 Base price: 10 wu
 
 Heavy armor causes wielder to be heavy loaded. First level heavy armor grants
--2 *armor* arcane casting dp penalty, 2 temporary *armor* physical points and
-+1 defense *armor* dp bonus.
+-2 *armor* arcane casting and dexterity-related *phy* checks dp penalty, 2
+temporary *armor* physical points and +1 defense *armor* dp bonus.
 
 ##### Shield
 
