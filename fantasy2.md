@@ -485,6 +485,10 @@ Insteadd of normal PW SW SW PA / PW SW PA PS.
 Divine mages who don't have Combat aspect can choose to mimic armor with 
 spells, much like combat arcane mages mimic weapon with spells.
 
+Divine mages may use basic interactions in their aspects in a mundane fashion
+(as opposed to arcane mages, who cast those as spells and have one cantrip
+they use at will as spell-like ability).
+
 #### Cantrips and basic interactions
 
 A mage selects one basic interaction per aspect in which she gets access to
