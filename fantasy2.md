@@ -453,10 +453,11 @@ Wealth points, however show the wealth category of a character.
 
 ## Magic
 
-Arcane mages can do everything. Worse than experts, yet they really can.
+Arcane mages can do everything. Worse than experts, yet they really can. As
+you create an arcane mage, you get all the aspects as your secondary aspects.
 
 Divine mages are focused on serving a diety or nature and are more determined
-than any expert.
+than any expert. Divine mages only choose two aspects, both of which are primary.
 
 When you create a character, you can choose to be a mage. If you do so, you may choose
 if you want to play arcane magician (Art) who uses Weave to construct spells or divine
@@ -470,7 +471,7 @@ Wizards prepare spells but have more spell slots, Sorcerers cast spells spontane
 
 #### Divine Magic
 
-Divine mages may select only two aspects, but both of those are primary.
+Divine mages may only select two aspects, but both of those are primary.
 All the divine mages are spontaneous casters. Divine mages' spells aren't
 failing due to armor.
 
