@@ -451,28 +451,39 @@ Wealth points, however show the wealth category of a character.
 
 *TODO*
 
-### Magic
+## Magic
 
-Mages can do everything. Worse than experts, yet they really can.
+Arcane mages can do everything. Worse than experts, yet they really can.
+
+Divine mages are focused on serving a diety or nature and are more determined
+than any expert.
 
 When you create a character, you can choose to be a mage. If you do so, you may choose
 if you want to play arcane magician (Art) who uses Weave to construct spells or divine
-magician (Might) who uses divine power to perform miracles.
+magician (Might) who uses divine power to perform miracles (see “Divine Magic”).
 
-Arcane magicians can furthermore choose to either be a Wizard or a Sorcerer.
+#### Arcane Magic
+
+Arcane mages can furthermore choose to either be a Wizard or a Sorcerer.
 Wizards prepare spells but have more spell slots, Sorcerers cast spells spontaneously
 (much like divine mages), but have less spell slots.
 
-All the divine mages are spontaneous casters. Divine mages aren't affected by armor but
-lose one aspect, while gaining an additional cantrip in one of the aspects. 
+#### Divine Magic
+
+Divine mages may select only two aspects, but both of those are primary.
+All the divine mages are spontaneous casters. Divine mages' spells aren't
+failing due to armor.
 
 #### Cantrips and basic interactions
 
-A mage selects one basic interaction per aspect in which she has at least ·· — she can
-use this option at will as a spell-like effect. When mage achieves ·· in an aspect
-she selects one more basic interaction and can cast it as a spell. Mages also get
-“Magical Aspect” options for each aspect when she gets · in this aspect (see
-“Magical Travel” for a reference).
+A mage selects one basic interaction per aspect in which she gets access to
+first-level options in this aspect. She may use this option at will as a
+spell-like effect. This option is mage's cantrip.
+
+When mage achieves ·· in an aspect she selects one more
+basic interaction and can cast it as a spell. Mages also get “Magical Aspect”
+options for each aspect when she gets · in this aspect (see “Magical Travel”
+for a reference).
 
 #### Spell slots
 
