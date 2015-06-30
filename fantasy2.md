@@ -474,6 +474,17 @@ Divine mages may select only two aspects, but both of those are primary.
 All the divine mages are spontaneous casters. Divine mages' spells aren't
 failing due to armor.
 
+Divine mages who have aspect Combat have access to mundane weapons and armor
+much like ordinary fighters do, except they get the following options:
+
+ + Primary weapon group, secondary weapon group, primary armor;
+ + Primary weapon group, primary armor, primary shields.
+
+Insteadd of normal PW SW SW PA / PW SW PA PS.
+
+Divine mages who don't have Combat aspect can choose to mimic armor with 
+spells, much like combat arcane mages mimic weapon with spells.
+
 #### Cantrips and basic interactions
 
 A mage selects one basic interaction per aspect in which she gets access to
