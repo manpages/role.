@@ -79,7 +79,7 @@ aspect grants access to options of N-1st level of options of this aspect.
 As you get access to a level N of options of an aspect, you may pick one option of each
 level of this aspect, up to N (including).
 
-You can also choose to have all five aspects as your secondary aspects, see “Mage”.
+You can also choose to have all five aspects as your secondary aspects, see “Jack of all trades”.
 
 ### Basic interactions
 
@@ -244,9 +244,7 @@ Spend 1 mental point: target square becomes difficult terrain of chosen type.
 
    + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor
      fact about land, plane, location, nation or inhabitants of a location, etc.; At
-     all times *(“at all times” means that even a mage who has this option has
-     the following effect)* you know how to use and take care of traveling tools
-     and mounts.
+     all times.
 
    + **Traveler's craft**: Make a DC 1 *travel* check to grant 1 *traveling*
      temporary hit point to a mount or 1 *traveling* temorary structural point to
@@ -453,73 +451,11 @@ Wealth points, however show the wealth category of a character.
 
 ## Magic
 
-Arcane mages can do everything. Worse than experts, yet they really can. As
-you create an arcane mage, you get all the aspects as your secondary aspects.
+Jacks of all trades can do everything. Worse than experts, yet they really can. As
+you create an jack of all trades, you get all the aspects as your secondary aspects.
 
-Divine mages are focused on serving a diety or nature and are more determined
-than any expert. Divine mages only choose two aspects, both of which are primary.
-
-When you create a character, you can choose to be a mage. If you do so, you may choose
-if you want to play arcane magician (Art) who uses Weave to construct spells or divine
-magician (Might) who uses divine power to perform miracles (see “Divine Magic”).
-
-#### Arcane Magic
-
-Arcane mages can furthermore choose to either be a Wizard or a Sorcerer.
-Wizards prepare spells but have more spell slots, Sorcerers cast spells spontaneously
-(much like divine mages), but have less spell slots.
-
-#### Divine Magic
-
-Divine mages may only select two aspects, but both of those are primary.
-All the divine mages are spontaneous casters. Divine mages' spells aren't
-failing due to armor.
-
-Divine mages who have aspect Combat have access to mundane weapons and armor
-much like ordinary fighters do, except they get the following options:
-
- + Primary weapon group, secondary weapon group, primary armor;
- + Primary weapon group, primary armor, primary shields.
-
-Insteadd of normal PW SW SW PA / PW SW PA PS.
-
-Divine mages who don't have Combat aspect can choose to mimic armor with 
-spells, much like combat arcane mages mimic weapon with spells.
-
-Divine mages may use basic interactions in their aspects in a mundane fashion
-(as opposed to arcane mages, who cast those as spells and have one cantrip
-they use at will as spell-like ability).
-
-#### Cantrips and basic interactions
-
-A mage selects one basic interaction per aspect in which she gets access to
-first-level options in this aspect. She may use this option at will as a
-spell-like effect. This option is mage's cantrip.
-
-When mage achieves ·· in an aspect she selects one more
-basic interaction and can cast it as a spell. Mages also get “Magical Aspect”
-options for each aspect when she gets · in this aspect (see “Magical Travel”
-for a reference).
-
-#### Spell slots
-
-Wizard of level L may prepare up to L spells of level 1, L-1 of level 2, ... 1 of level L.
-Sorcerers have those numbers reduced by 1 at a minimum of 1 (sorcerer ··· has 2 1st level
-spell slots, 1 2nd level and 1 3rd level).
-
-#### Casting for mental points
-
-At any time, a caster may cast any spell she may cast by spending a mental point.
-Wizards, however, have to prepare those spells as well.
-
-#### Spell book and foci
-
-Wizards ought to have a spell book to prepare spells for a day. Divine mages ought to
-have a focus through which they're casting spells — a holy symbol for a cleric, a 
-staff for a druid, what have you. Losing focus means that a character can't channel 
-divine energy. A character may have more than one focus or obtain a new focus.
-
-A spell book costs 10 wu + 1 wu for each 1st level spell inscribed, a focus costs 1 wu.
+On the other hand, there are also specialists, who strive for perfection. Specialists 
+only choose two aspects, both of which are primary.
 
 ### Equipment and items
 
@@ -660,8 +596,8 @@ mental points maximum is no longer reduced due to enchanting this item and
 willing character's mental points maximum is reduced by 1.
 
 As a ritual, owner of a magic item can unlink the item if she does, item gets
-disenchanted at next dawn. An arcane mage can spend a ritual to link an unlinked
-magic item.
+disenchanted at next dawn. A character who has access to magical basic interactions
+ can spend a ritual to link an unlinked magic item.
 
 If the owner gets too far from the linked magic object, the object becomes
 unlinked.
