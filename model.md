@@ -117,7 +117,7 @@ possible decisions on a given depth, after which picking a random path in the
 tree and repeating adding weighted effects of all or some of the decisions.
 
 Please notice, that ~.-program-schema is merely a check, while ~..-program-schema
-is a proof of balance.
+is a proof of balance. ~..-explodes rapidly in complexity.
 
 The only way to get a proof that the system is balanced within our setting
 model (remember, we have to know whether or not we're balancing pod racing!) is
@@ -144,7 +144,8 @@ for this option to the tree of the basic interaction.
 A way to analytically work with options within interaction classes was
 proposed by Ilya Deift.
 
-It should be noted though that analytical balancing doesn't tend to be
+It should be noted though that analytical balancing, while helps with low
+hanging fruits (such as bow vs crossbow vs sword balancing) doesn't tend to be
 applicable to diverse systems due to complexity explosion, hence we'll stick
 to illustrative/probabilistic balancing and instead of proving Large balance
 theorem for our systems, we'll concentrate on justifying it by showing that
