@@ -70,8 +70,7 @@ Major and Minor.
 
 Characters can acquire sources by spending one experience point and
 options within trees of options for the amount of experience points
-that is equal to the height of node in the tree which is a parent of
-the new option.
+that is equal to the height of new option.
 
 To pick a source, player fixes one global entity, two major entities
 and four minor entities. Players may choose to strike out two major
@@ -204,7 +203,7 @@ within an aspect are considered to be a priori balanced against each other.
 
 Spend 1 mental point: restore 1 hit point or structure point of target character.
      
-#### Crawling (resource restoration | elusiveness, consequences of harm)
+#### Crawling
 
    + **Run, Tordek, run!**: Pay 1 mental point: Both speeds of a target character 
      who forfieted an encounter becomes equal to respecting speeds of the character
@@ -223,10 +222,10 @@ Spend 1 mental point: restore 1 hit point or structure point of target character
    + **Endure distractions**: Make a DC 1 source check to continue an interrupted
      short rest. No retry.
 
-   + **Mental map**: Make a DC 1 *crawling + 1dp* check to ignore traveling-based confusion
+   + **Mental map**: Make a DC 1 source check to ignore traveling-based confusion
      while crawling.
 
-   + **Tomb raider's craft**: Make a DC 1 *crawling* check to accomplish one of the following —
+   + **Tomb raider's craft**: Make a DC 1 source check to accomplish one of the following —
 
       + detect or set up item level 1 traps or secret doors; 
       
@@ -239,7 +238,7 @@ Spend 1 mental point: restore 1 hit point or structure point of target character
         crawling gear. At all times you can spend a short rest to restore 1
         structural point of an equipment or crawling gear.
 
-   + **Tomb raider's knowledge**: Make a DC 1 *crawling* check to determine a minor fact about
+   + **Tomb raider's knowledge**: Make a DC 1 source check to determine a minor fact about
      a construction, a piece of architecture, a dungeon room, a treasure, an equipment, a gear,
      a poison, tactical properties of terrain, etc. At all times you know how to set up camps and
      take care of equipment and gear.
@@ -248,30 +247,30 @@ Spend 1 mental point: restore 1 hit point or structure point of target character
 
 Spend 1 mental point: target square becomes difficult terrain of chosen type.
 
-#### Travel (distance | pathfinding, speed)
+#### Travel
  
-   + **Quick march**: Pay 1 travel point: for the next travel, each character
+   + **Quick march**: Pay 1 mental point: for the next travel, each character
      in the party gets +1 mile/hour *traveling* strategic speed bonus *(see
      “Strategic movement”)*
 
-   + **Extend stamina**: Pay 1 travel point: get an extra hour of full-speed
+   + **Extend stamina**: Pay 1 mental point: get an extra hour of full-speed
      traveling
 
-   + **Second wind**: Pay 1 travel point: for an hour, ignore exhaustion or
+   + **Second wind**: Pay 1 mental point: for an hour, ignore exhaustion or
      fatigue caused by traveling (exhaustion and fatigue should be paid
      separately)
    
-   + **Travel safe**: Make a DC 1 *travel + 1dp* check to predict
+   + **Travel safe**: Make a DC 1 source check to predict
      well-known dangerous places along your path
 
-   + **Intuit general direction**: Make a DC 1 *travel + 1dp* check to
+   + **Intuit general direction**: Make a DC 1 source check to
      intuit where is northen hemisphere (or hemiplane, if you're in Discworld)
 
-   + **Traveler's knowledge**: Make a DC 1 *travel* check to determine a minor
+   + **Traveler's knowledge**: Make a DC 1 source check to determine a minor
      fact about land, plane, location, nation or inhabitants of a location, etc.; At
      all times.
 
-   + **Traveler's craft**: Make a DC 1 *travel* check to grant 1 *traveling*
+   + **Traveler's craft**: Make a DC 1 source check to grant 1 *traveling*
      temporary hit point to a mount or 1 *traveling* temorary structural point to
      a vehicle. No retry *(the same character can't try this several times before
      taking at least a short rest)*.; At all times you can spend a short rest to
@@ -283,15 +282,17 @@ Spend 1 mental point: target square becomes difficult terrain of chosen type.
 
 Spend 1 mental point: Summon a level-1 mount for one travel.
    
-#### Wealth (active | wealth category, possessions)
+#### Wealth
 
 *Wealth is the shape it exists for NPC artificers and enchanters is not
 available to player characters. It governs management, resource allocation,
 crafts, enchanting, etc.*
 
-Wealth points don't restore after full rest. You can't improve your wealth
-score by spending experience points except for experience points spent during
-character creation.
+Wealth points don't restore after full rest. You can't improve your
+wealth score by spending experience points except for experience
+points spent during character creation. For those reasons, wealth
+isn't included into the fundamental aspect list. Wealth, however,
+provide a special type of basic interactions:
 
   + **Shut up and take my money**: Pay 1 wealth point: If you lost in an
     encounter, if agenda of opponents permits bribe, flee successfully.
@@ -302,20 +303,20 @@ character creation.
   + **Would you kindly**: Pay 1 wealth point: Suggest a minor decision to at
     least a loyal faction.
 
-  + **Gather more information**: Make a DC 1 *wealth + 1dp* check to get +1
+  + **Gather more information**: Make a DC 1 wealth check to get +1
     *competence* replacement bonus on your next gather information check. If you
     fail, get -1 *competence* replacement penalty on it. You pay according amount
     of WU.
 
-  + **Consult maps**: Make a DC 1 *wealth + 1dp* check to get +1 *competence*
+  + **Consult maps**: Make a DC 1 wealth check to get +1 *competence*
     replacement on your next travel planning check. If you fail, get -1
     *competence* replacement penalty on it. You pay according amount of WU.
 
-  + **Aristocratic memory**: Make a DC 1 *wealth* check to get +1 *competence*
+  + **Aristocratic memory**: Make a DC 1 wealth check to get +1 *competence*
     replacement bonus on your next mental map check. If you fail, get -1
     *competence* replacement penalty on it.
 
-  + **Wait!**: Make a DC 1 *wealth* check to get unfriendly opponents agenda of
+  + **Wait!**: Make a DC 1 wealth check to get unfriendly opponents agenda of
     which permits bribe to talk before the combat starts or continues beyond
     surprise round.
 
@@ -324,33 +325,33 @@ character creation.
 Spend 1 mental point: Target character gets *luck* emblem with "next time you
 would receive wealth units, you get twice that amount instead".
    
-#### Socialization (identity | gather information, standings)
+#### Socialization
 
-   + **Friendly**: Pay 1 socialization point: move one relation category of a
+   + **Friendly**: Pay 1 mental point: move one relation category of a
      non-hostile character during a social interaction. This effect is of type
      *charm*.
 
-   + **Sense and conceal motive**: Pay 1 socialization point: get to know or
+   + **Sense and conceal motive**: Pay 1 mental point: get to know or
      hide a minor fact during conversation. This effect is of type *charm*.
      *(Please note that you can try to lie or try to understand the motives of
      characters you encounter outside of mechanical aspects, however activating
      ability granted by this option you know for sure that a certain fact is
      well-hidden or some hidden fact is revealed)*
 
-   + **Inspire**: Pay 1 socialization point: inspire someone to do something,
+   + **Inspire**: Pay 1 mental point: inspire someone to do something,
      make them believe in themselves, calm someone down or reduce an effect of
      insanity.
 
-   + **Gather information**: Make a DC 1 *socialization + 1dp* check to gather
+   + **Gather information**: Make a DC 1 source check to gather
      a piece of minor information in a densely inhabited place.
 
-   + **Suggest**: Clash *socialization* vs (*men* or *socialization*) to suggest
+   + **Suggest**: Clash *source* vs *source* (???) to suggest
      a minor action to someone.
 
-   + **Honey**: Make a DC 1 *socialization* check to find out how to approach the
+   + **Honey**: Make a DC 1 source check to find out how to approach the
      target.
 
-   + **Impromptu**: Make a DC 1 *socialization* check to quickly come up with an
+   + **Impromptu**: Make a DC 1 source check to quickly come up with an
      excuse or plausible explanation of minor fact. *(Mechanically that means that
      DM will give you, the player, time to come up with a good excuse for a certain
      question about minor fact, such as party breaking into a house, hiding, pick
@@ -427,9 +428,9 @@ half the load to start rolling).
 
 #### Fatigue and exhaustion
 
-Fatigued character suffers -1 *fatigue* pool penalty on physical checks.
+Fatigued character suffers -1 *fatigue* dp penalty on physical checks.
 
-Exhausted character suffers a -1 *exhaustion* pool penalty on physical and
+Exhausted character suffers a -2 *fatigue* dp penalty on physical and
 mental checks.  
 
 Traveling characters can spend a travel point to ignore effect of fatigue or
@@ -653,33 +654,35 @@ Race Subrace Size
 Name
 Diety
 States: []
-Primary aspect:
-Secondary aspects:
 
-# Combat Phy 1/1 Mnt 1/1
-Physical development ·
-Mental development ·
+# Sources:
 
-# Crawling 1/1
-Consequences []
+Source 1 (Global 
+          Major Major
+          Minor Minor Minor Minor)
 
-# Travel 1/1
+...
+
 Strategic speed 3mi/h
+Tactical speed 30ft
 
-# Wealth 0/1
 Posessions []
 Linked items []
+Wealth 0/1
 Active 10 wu
 
-# Socialization 1/1
-Identities: true identity
+Identities: []
 Standings []
 
-# Options
-## Combat
-## Crawling
-## Travel
-## Socialization
+# Source1 options
+
+ + a
+  + a1
+  + a2
+   + a21
+ + b
+
+# ...
 
 # MLPc
 Motive:
