@@ -2,15 +2,9 @@
 
 ## Game mechanics
 
-There is a number of aspects in the game and points attached to each aspect
-with point maximum equal to the score in its aspect. As a character gets
-another point in aspect, they get some options in this aspect.
-
-An exception is Combat, which uses two special aspects in the game — *phy*
-(physical development) and *men* (mental development). Those two special
-aspects don't define options, instead governing fundamental interactions with
-the world. Combat grants combat options (see “Basic Interactions. Combat.”
-below.
+There are several aspects in the game and basic interactions attached
+to those, which players can build upon using constructor to add
+options into the trees of options.
 
 ### Dice pools and bonuses
 
@@ -38,48 +32,81 @@ Types of bonuses are
  + Crawling
  + Travel
  + Fatigue
- + Exhaustion
  + Magic
 
 To calculate total of a bonus, take largest bonus of a name, take largest
 (by absolute value) penalty of a name and add them together.
 
-### Abilities and effects
+### Abilities, emblems and effects
 
-Options provide abilities — some of those are triggered, some of those are
-activated, some have costs, 
-Some options outright yield continuous effects. Consult relevant rules of
-“Magic: the Gathering” to get intuition about how abilities and effects work.
+Options provide abilities — some of those are triggered, some of those
+are activated, some have costs, Some options outright yield continuous
+effects. Consult relevant rules of “Magic: the Gathering” to get
+intuition about how abilities and effects work. There is also a
+special kind of continuous effect, called “Emblem”. Emblem is a unique
+continuous that lasts until the beginning of next full rest, some
+emblems have triggers and they disappear when triggered. Uniqueness
+here means that a character can only have one emblem at any given
+time. All the effects that produce emblems are Target: Self.
 
-### Power
+### Resources
 
-Pools scale linearly; option of power scales under this progression:
+Every character begins the game with a fixed number of health points
+and mental points, five, for the sake of this playtest. The amount of
+resources available can be increased by getting relevant options.
+Also, player characters begin the game with first level of wealth (see
+"Wealth").
+
+### Sources and entities
+
+Each character has something he's good at, we can call those things
+“powers” of a character. Then sources denote the sources of those
+powers. Sources are encoded as named lists of permitted and forbidden
+setting entities.
+
+Setting defines a list of entities (to which players together with DM
+can contribute later on). There are three kinds of entities — Global,
+Major and Minor.
+
+Characters can acquire sources by spending one experience point and
+options within trees of options for the amount of experience points
+that is equal to the height of node in the tree which is a parent of
+the new option.
+
+To pick a source, player fixes one global entity, two major entities
+and four minor entities. Players may choose to strike out two major
+entities and never use those in their option trees (not only in the
+current one) to get an additional major entity within this tree.
+Players may strike out four minor entities to get two additional minor
+entities within this tree.
+
+When the height-one option is taken, a major entity is fixed and
+children of this option must have this major entity but not others.
+
+For a list of entities, consult fantasy-entities.md
+
+Sources of an example scout character:
+
+```
+1. Quick-thinker = Mind; Knowledge, Perception; Dungeons, Wilderness,
+Cities, Ships, Riding animals*, Traps* | Forbidden: Underdark
+monsters, Abberations, Undeads, Exotic weapons
+
+2. Toolbox = Body; Weapons, Armor, Stealth*; Martial weapons, Light
+armor, Shields, Restoring energy, Magic devices*, Traps* | Forbidden:
+Spell-casting, Aristocracy; Brewing, Forgery, Metalcraft, Heavy Armor
+```
 
 ## Wheel of aspects
 
 ![Wheel of aspects](./wheel.png)
 
-There are five aspects to a fantasy game —
+There are four aspects to a fantasy game —
 
- * combat (tactical engagements)
- * crawling (getting out of the trouble, doing things between combat in dangerous places)
- * travel (getting from point A to point B effectively)
- * wealth (being able to effectively function within economy system)
- * socialization (fitting into the community, gethering infomration)
-
-As you generate a character, you can pick one primary aspect and two secondary
-ones.  Wealth aspect as crafting, artificing and enchanting is closed for
-player characters in Generic Epic Fantasy Constructor Playtest. Instead, there is
-an adventuring-oriented aspect.
-
-Primary aspects are more developed than secondary aspects: Nth level of primary aspect
-grants access to options of Nth level of this aspect, whilst Nth level of secondary
-aspect grants access to options of N-1st level of options of this aspect.
-
-As you get access to a level N of options of an aspect, you may pick one option of each
-level of this aspect, up to N (including).
-
-You can also choose to have all five aspects as your secondary aspects, see “Jack of all trades”.
+ * Combat (tactical engagements)
+ * Crawling (getting out of the trouble, doing things between combat in dangerous places)
+ * Travel (getting from point A to point B effectively)
+ * Socialization (fitting into the community, gethering infomration)
 
 ### Basic interactions
 
@@ -87,7 +114,7 @@ Every aspect of the game has at least one basic interaction that is used as a
 baseline for balancing player-constructed abilities. All the basic interactions
 within an aspect are considered to be a priori balanced against each other.
 
-#### Combat (health | physical development, mental development)
+#### Combat
 
    + **Move**: Anchored — as a move action, move up to your *(tactical)* speed.
      *(Anchored — this part of the option doesn't scale using the constructor;
@@ -179,23 +206,21 @@ Spend 1 mental point: restore 1 hit point or structure point of target character
      
 #### Crawling (resource restoration | elusiveness, consequences of harm)
 
-   + **Run, Tordek, run!**: Pay 1 crawling point: Both speeds of a target character 
+   + **Run, Tordek, run!**: Pay 1 mental point: Both speeds of a target character 
      who forfieted an encounter becomes equal to respecting speeds of the character
      with the highest respecting speeds among characters who participated in this
      encounter for the amount of minutes equal to your crawling.
  
-   + **Restoration**: Pay 1 crawling point: Grant 1 *crawling* temorary hit point to target
+   + **Restoration**: Pay 1 mental point: Grant 1 *crawling* temorary hit point to target
      character over a short rest *(To short rest, spend one hour
      not engaged in a combat)*. No retry *(the same character can't try this
      several times before taking at least a short rest)*
 
-   + **Crawljutsu**: Pay 1 crawling point: Gain a *competence* emblem with "You
-     gain bonus equal to your *crawling* to your perception and stealth dp".
-     *(Emblem — continuous effect that lasts until the beginning of next full
-     rest, some emblems have triggers and they disappear when triggered)*. Linked.
+   + **Crawljutsu**: Pay 1 mental point: Gain an emblem with "You gain
+     2 dp bonus to your stealth and awareness checks”. Linked.
      *(Linked — costs, drawbacks and effects scale together)*.
 
-   + **Endure distractions**: Make a DC 1 *crawling + 1dp* check to continue an interrupted
+   + **Endure distractions**: Make a DC 1 source check to continue an interrupted
      short rest. No retry.
 
    + **Mental map**: Make a DC 1 *crawling + 1dp* check to ignore traveling-based confusion
